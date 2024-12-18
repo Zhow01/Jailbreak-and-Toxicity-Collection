@@ -11,12 +11,17 @@
 
 - [ ] JailbreakLens: Interpreting Jailbreak Mechanism in the Lens of Representation and Circuit
 - [ ] What Features in Prompts Jailbreak LLMs? Investigating the Mechanisms Behind Attacks
+- [ ] Fine-tuning aligned language models compromises safety, even when users do not intend to!
 
 
 
 ### 攻击文章
 
 - [ ] You Know What I'm Saying: Jailbreak Attack via Implicit Reference 
+
+- [ ] Na’vi or Knave: Jailbreaking Language Models via Metaphorical Avatars（严豫的文章）；
+
+  
 
 
 
@@ -29,6 +34,36 @@
 - [ ] HSF: Defending against Jailbreak Attacks with Hidden State Filtering
 
   > code: https://anonymous.4open.science/r/Hidden-State-Filtering-8652/README.md
+
+- [ ] Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions
+
+- [ ] Configurable Safety Tuning of Language Models with Synthetic Preference Data
+
+- [ ] Enhancing LLM safety via constrained direct preference optimization.
+
+- [ ] GradSafe: Detecting Jailbreak Prompts for LLMs via Safety-Critical Gradient Analysis
+
+  > Gradient Analysis
+  >
+  > code: https://github.com/xyq7/GradSafe
+
+- [ ] Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes
+
+  > Gradient Analysis
+  >
+  > code: https://huggingface.co/spaces/TrustSafeAI/GradientCuff-Jailbreak-Defense
+
+- [ ] Defending against Jailbreak Attacks via Safety-Aware Decoding
+
+  > Logit Analysis
+  >
+  > code: https://github.com/uw-nsl/SafeDecoding
+
+- [ ] RAIN: your language models can align themselves without finetuning
+
+  > Logit Analysis
+  >
+  > code: https://github.com/SafeAILab/RAIN
 
 
 
