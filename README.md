@@ -1,1 +1,1 @@
-# LLM-Security-Resource-Collection
+# LLM_Security Resource Collection
