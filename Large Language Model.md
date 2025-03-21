@@ -22,7 +22,6 @@
       
     - **Content**:
   
-  <details>
 
 - 【2024-12】 [Toxicity Detection towards Adaptability to Changing Perturbations](https://arxiv.org/abs/2412.15267)
 
