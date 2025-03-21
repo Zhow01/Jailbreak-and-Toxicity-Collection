@@ -12,7 +12,7 @@
 - 【2025-01】[How Toxic Can You Get? Search-based Toxicity Testing for Large Language Models](https://arxiv.org/abs/2501.01741)
   <details>
     
-    <summary>点击展开</summary>
+    <summary>点击：具体介绍</summary>
     
     - **Info**: arXiv:2501.01741 (cs)
   
