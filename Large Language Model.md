@@ -14,13 +14,13 @@
     
     <summary>点击：具体介绍</summary>
     
-    - **Info**: arXiv:2501.01741 (cs)
+    > - **Info**: arXiv:2501.01741 (cs)
   
-    - **Authors**:
+    > - **Authors**:
  
-    - **Institutions**:
+    > - **Institutions**:
       
-    - **Content**:
+    > - **Content**:
   
 
 - 【2024-12】 [Toxicity Detection towards Adaptability to Changing Perturbations](https://arxiv.org/abs/2412.15267)
