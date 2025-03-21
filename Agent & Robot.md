@@ -14,7 +14,7 @@
   
   <details>
   
-    <summary>Specific Introduction: Click!</summary>
+    <summary> 点击！展开详细信息 </summary>
   
     >
     >- **Info**: arXiv:2501.01741 (cs)
