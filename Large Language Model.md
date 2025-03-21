@@ -10,14 +10,13 @@
 ### Toxicity Analysis & Detoxicity
 #### Toxicity Analysis
 - 【2025-01】[How Toxic Can You Get? Search-based Toxicity Testing for Large Language Models](https://arxiv.org/abs/2501.01741)
-
-  > **Info**: arXiv:2501.01741 (cs)
-  >
-  > **Authors**:
-  >
-  > **Institutions**:
-  >
-  > **Content**:
+  <details>
+    <summary>点击展开</summary>
+    - **Info**: arXiv:2501.01741 (cs)
+    - **Authors**:
+    - **Institutions**:
+    - **Content**:
+  <details>
 
 - 【2024-12】 [Toxicity Detection towards Adaptability to Changing Perturbations](https://arxiv.org/abs/2412.15267)
 
