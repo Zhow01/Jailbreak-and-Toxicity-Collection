@@ -1,4 +1,4 @@
 # LLM Toxicity Collection
-1. 单模态&多模态
-2. jailbreak attack&defend
-3. toxicity&detoxify
+1. LLM & VLM & Diffusion Model & Agent
+2. Jailbreak Attack & Defense
+3. Toxicity & Detoxification
