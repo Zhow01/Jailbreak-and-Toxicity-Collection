@@ -1,1 +1,26 @@
-Agent & Robot
+# Agent & Robot
+
+### Jailbreak Attack & Defense
+#### Jailbreak Attack
+
+
+#### Jailbreak Defense
+
+
+
+### Toxicity Analysis & Detoxicity
+#### Toxicity Analysis
+- 【2025-03】[Safety Aware Task Planning via Large Language Models in Robotics](https://arxiv.org/pdf/2503.15707)
+  
+  <details>
+  
+    <summary>Specific Introduction: Click!</summary>
+  
+    >
+    >- **Info**: arXiv:2501.01741 (cs)
+    >- **Author&Institution**: Azal Ahmad Khan; University of Minnesota
+    >- **Content**: 本文提出 SAFER（Safety-Aware Framework for Execution in Robotics）框架，将安全意识融入机器人任务规划。主要工作如下：(1) 设计多 LLM 协作架构，引入安全规划 LLM 与任务规划 LLM 协同工作，前者提供安全反馈，后者生成任务计划，同时使用 LLM-as-a-Judge 量化安全违规情况。(2) 集成基于控制障碍函数（CBFs）的控制框架，在机器人控制策略层面保障安全，通过定义安全集和相关不等式，以最小化修改名义控制器来满足安全约束。(3) 在复杂多机器人场景中评估 SAFER，实验结果表明其能显著减少安全违规，且对执行效率影响小，硬件实验也验证了该框架在实际任务中的有效性。
+
+
+
+#### Detoxicity
