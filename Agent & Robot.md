@@ -10,7 +10,7 @@
 
 ### Toxicity Analysis & Detoxicity
 #### Toxicity Analysis
-- 【2025-03】[Safety Aware Task Planning via Large Language Models in Robotics](https://arxiv.org/pdf/2503.15707) (arXiv:2501.01741 (cs))
+- 【2025-03】[Safety Aware Task Planning via Large Language Models in Robotics](https://arxiv.org/pdf/2503.15707) (arXiv:2501.01741)
   
   <details>
   
