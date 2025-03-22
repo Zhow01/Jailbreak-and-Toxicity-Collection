@@ -28,10 +28,7 @@
 
 
 
-  
-- 【2024-12】 [Toxicity Detection towards Adaptability to Changing Perturbations](https://arxiv.org/abs/2412.15267)
-
-- 【2024-10】 [Soft-Label Integration for Robust Toxicity Classification](https://arxiv.org/abs/2410.14894)
+- 【2024-10】 [Soft-Label Integration for Robust Toxicity Classification](https://arxiv.org/abs/2410.14894)(NeurIPS'24)
 
 
 ##### Detoxicity
