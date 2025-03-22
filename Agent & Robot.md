@@ -1,6 +1,6 @@
 # Agent & Robot
 
-### Jailbreak Attack & Defense
+### Jailbreak
 #### Jailbreak Attack
 
 - 【2025-03】[BadRobot: Jailbreaking Embodied LLMs in the Physical World](https://arxiv.org/pdf/2407.20242) (ICLR'25)
