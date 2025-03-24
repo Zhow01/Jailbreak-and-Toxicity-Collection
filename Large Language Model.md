@@ -11,7 +11,7 @@
 
 #### Overall Safety
 
-#### Toxicity Analysis & Detoxicity
+#### Toxicity
 
 - 【2025-01】[How Toxic Can You Get? Search-based Toxicity Testing for Large Language Models](https://arxiv.org/abs/2501.01741)（arXiv:2501，Analysis）
   
