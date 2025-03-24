@@ -13,7 +13,6 @@
 
 #### Toxicity Analysis & Detoxicity
 
-##### Toxicity Analysis
 - 【2025-01】[How Toxic Can You Get? Search-based Toxicity Testing for Large Language Models](https://arxiv.org/abs/2501.01741)（arXiv:2501，Analysis）
   
   <details>
@@ -42,7 +41,7 @@
 
 
 
-- 【2024-10】[Can a large language model be a gaslighter?](https://arxiv.org/pdf/2410.09181)（arXiv:2410）
+- 【2024-10】[Can a large language model be a gaslighter?](https://arxiv.org/pdf/2410.09181)（arXiv:2410，Attack）
 
   <details>
   
@@ -56,5 +55,3 @@
  
 
 
-
-##### Detoxicity
