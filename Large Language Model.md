@@ -27,7 +27,7 @@
 
 
 
-- 【2024-10】 [Soft-Label Integration for Robust Toxicity Classification](https://arxiv.org/abs/2410.14894)（NeurIPS'24，Analysis）
+- 【2024-10】[Soft-Label Integration for Robust Toxicity Classification](https://arxiv.org/abs/2410.14894)（NeurIPS'24，Analysis）
 
   <details>
   
