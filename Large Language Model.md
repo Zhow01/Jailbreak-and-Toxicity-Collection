@@ -22,6 +22,21 @@
 #### Overall Safety
 
 
+- 【2025-03】[SafeMERGE: Preserving Safety Alignment in Fine-Tuned Large Language Models via Selective Layer-Wise Model Merging](https://arxiv.org/abs/2503.17239)（arXiv:2503，Aligning）
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Aladin Djuhera
+ 
+    - **机构**：Technical University of Munich
+      
+    - **主要内容**：本文提出了SafeMERGE框架，旨在解决在对大型语言模型（LLM）进行任务特定微调时，可能导致其安全性对齐（safety alignment）受损的问题。​即使在使用无害数据进行微调的情况下，模型的安全性也可能下降。​为此，SafeMERGE在微调阶段后，通过**选择性地合并微调模型和安全对齐模型的层**，以保持模型的安全性和任务性能。SafeMERGE的主要方法包括：（1）***安全子空间计算***：​首先，通过比较基础模型和安全对齐模型的权重差异，计算出表示安全性的子空间。这一子空间有助于识别哪些任务向量可能导致有害输出。（2）***逐层模型合并***：​对于模型的每一层，SafeMERGE计算该层在安全子空间中的投影余弦相似度。​如果相似度低于预设阈值，表示该层可能产生有害输出，需将微调模型和安全对齐模型的该层进行合并，以增强安全性。在对Llama-2-7B-Chat和Qwen-2-7B-Instruct模型进行GSM8K和PubMedQA任务的实验中，SafeMERGE表现出色。​与其他基线方法相比，它在减少有害输出的同时，几乎不影响任务性能，甚至有所提升。
+
+
+
+
 - 【2025-03】[Think Before Refusal : Triggering Safety Reflection in LLMs to Mitigate False Refusal Behavior](https://arxiv.org/pdf/2503.17882)（arXiv:2503，Defense）
   
   <details>
