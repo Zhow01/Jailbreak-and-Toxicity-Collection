@@ -5,7 +5,17 @@
 
 #### Jailbreak Defense
 
-
+- 【2025-03】[STShield: Single-Token Sentinel for Real-Time Jailbreak Detection in Large Language Models](https://arxiv.org/pdf/2503.17932)（arXiv:2503）
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Xunguang Wang
+ 
+    - **机构**：The Hong Kong University of Science and Technology
+      
+    - **主要内容**：本文提出了STShield，一种轻量级框架，用于LLM实时检测越狱攻击。​STShield引入了单一标记哨兵机制，***在模型的响应序列中添加一个二进制安全指示符***，利用LLM自身的对齐能力进行检测。​该框架结合了在正常提示上的有监督微调和使用嵌入空间扰动的对抗训练，实现了强大的检测能力，同时保持了模型的实用性。​
 
 ### Safety
 
