@@ -80,7 +80,7 @@
 
 
 - 【2025-02】[Safety Evaluation of DeepSeek Models in Chinese
-Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502.11137v2）
+Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502）
   
   <details>
   
