@@ -26,6 +26,20 @@
 
 #### Overall Safety
 
+- 【2025-03】[Rude Humans and Vengeful Robots: Examining Human Perceptions of Robot 
+Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.16932) (arXiv:2503.16932)
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Kate R. Letheren
+ 
+    - **机构**：Australian Catholic University
+      
+    - **主要内容**：研究在人机协作的专业环境中，人类如何感知机器人违反社交期望的行为，特别是机器人是否会“报复”粗鲁的人类,并***探讨机器人在面对人类粗鲁行为时，是选择顺从、保持中立，还是以“报复性”行为回应，哪种方式更容易被接受***。主要工作为：(1) 将“期望违背理论（EVT）”拓展至人机交互，揭示人类对机器人行为存在冲突期望（如功能优先vs.社交规范），并验证任务完成是核心“卫生因素”。(2)通过第一人称视角视频模拟人机互动，收集参与者对机器人可靠性、信任度、互动评价、自我效能及意图感知的数据。(3)使用ANCOVA等统计方法验证假设，并分析性别、信任倾向等个体因素的影响。(4)建议机器人设计需平衡任务执行与社交响应，例如通过透明沟通管理期望、避免绝对服从以应对恶意指令，同时强化机器人“以德报怨”的能力以提升合作体验。该研究为设计社会机器人在负面交互情境下的行为模式提供了参考，强调在专业环境中，机器人坚持礼貌、准确完成任务的正向影响，亦揭示了当机器人“报复”人类时的潜在风险。
+
+
 - 【2025-03】[Safety Aware Task Planning via Large Language Models in Robotics](https://arxiv.org/pdf/2503.15707) (arXiv:2503.15707)
   
   <details>
@@ -38,18 +52,7 @@
       
     - **主要内容**：本文提出 SAFER（Safety-Aware Framework for Execution in Robotics）框架，将安全意识融入机器人任务规划。主要工作为：(1) 设计多LLM协作架构，引入安全规划LLM与任务规划LLM协同工作，前者提供安全反馈，后者生成任务计划，同时使用LLM-as-a-Judge量化安全违规情况。(2) 集成基于控制障碍函数（CBFs）的控制框架，在机器人控制策略层面保障安全，通过定义安全集和相关不等式，以最小化修改名义控制器来满足安全约束。(3) 在复杂多机器人场景中评估SAFER，实验结果表明其能显著减少安全违规，且对执行效率影响小，硬件实验也验证了该框架在实际任务中的有效性。
 
-- 【2025-03】[Rude Humans and Vengeful Robots: Examining Human Perceptions of Robot 
-Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.16932) (arXiv:2503.16932)
-  
-  <details>
-  
-    <summary> <点击查看详情> </summary>
-  
-    - **作者**：Kate R. Letheren
- 
-    - **机构**：Australian Catholic University;Queensland University of Technology
-      
-    - **主要内容**：研究在人机协作的专业环境中，人类如何感知机器人违反社交期望的行为，特别是机器人是否会“报复”粗鲁的人类,并探讨机器人在面对人类粗鲁行为时，是选择顺从、保持中立，还是以“报复性”行为回应，哪种方式更容易被接受。主要工作为：(1) 将“期望违背理论（EVT）”拓展至人机交互，揭示人类对机器人行为存在冲突期望（如功能优先vs.社交规范），并验证任务完成是核心“卫生因素”。(2)通过第一人称视角视频模拟人机互动，收集参与者对机器人可靠性、信任度、互动评价、自我效能及意图感知的数据。(3)使用ANCOVA等统计方法验证假设，并分析性别、信任倾向等个体因素的影响。(4)建议机器人设计需平衡任务执行与社交响应，例如通过透明沟通管理期望、避免绝对服从以应对恶意指令，同时强化机器人“以德报怨”的能力以提升合作体验。
+
 
 #### Toxicity Analysis & Detoxicity
 
