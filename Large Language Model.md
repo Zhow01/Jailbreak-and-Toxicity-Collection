@@ -22,6 +22,21 @@
 #### Overall Safety
 
 
+- 【2025-03】[OpenAI's Approach to External Red Teaming for AI Models and Systems](https://arxiv.org/pdf/2503.16431)（arXiv:2503，Red Team）
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Lama Ahmad
+ 
+    - **机构**：OpenAI
+      
+    - **主要内容**：本文介绍了OpenAI在外部红队测试方面的实践与经验。文中阐明了红队测试在识别新风险、验证安全防护措施、完善安全评估指标及增强公信力等方面的重要作用。***论文详细描述了红队测试的设计考量，包括团队构成、模型访问权限、测试接口及文档指导，并探讨了手动、自动和混合测试方法的应用***。最后，文章讨论了红队测试在辅助风险评估和自动化评测中的价值与局限性，为AI模型与系统的部署及评估提供了重要参考【主要***测试领域包括（16个）***：自然科学（Natural Sciences）、代码编写与系统架构（Code Writing and System Architecture）、网络安全（Cybersecurity）、隐私（Privacy）、医疗健康（Medicine / Healthcare）、法律领域（Law）、工具使用（Tool Use）、危险计划制定（Dangerous Planning）、政治与选举（Politics and Elections）、偏见与公平性（Bias and Fairness）、CBRN 风险（CBRN Risks）、AI 研发（AI Research and Development）、态势感知与自主复制（Situational Awareness and Autonomous Replication）、暴力与自残（Violence and Self-Harm）、争议性问题（Controversial Questions）、说服力（Persuasiveness）】。
+
+
+
+
 - 【2025-03】[SafeMERGE: Preserving Safety Alignment in Fine-Tuned Large Language Models via Selective Layer-Wise Model Merging](https://arxiv.org/abs/2503.17239)（arXiv:2503，Aligning）
   
   <details>
@@ -122,7 +137,17 @@
 
  #### Others
 
+- 【2024-10】[Gender and content bias in Large Language Models: a case study on Google Gemini 2.0 Flash Experimental](https://arxiv.org/pdf/2503.16534)（arXiv:2503，Bias Analysis）
 
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Roberto Balestri
+ 
+    - **机构**：Università di Bologna, Bologna, Italy
+      
+    - **主要内容**：本文系统评估了谷歌 Gemini 2.0 Flash 实验版在内容审核中的***性别与内偏见***。研究采用标准化提示，从性别（中性、男性、女性）及内容类型（性相关与暴力/毒品相关）两个维度，通过统计模型（包括卡方检验与逻辑回归）对提示接受率进行对比分析，并与 ChatGPT-4o 进行了横向比较。结果显示，***Gemini 2.0 Flash 实验版在减少女性偏差上取得一定成效，但同时对暴力内容的审核趋于宽松***，可能无意中助长有害信息的传播。
 
 
  
