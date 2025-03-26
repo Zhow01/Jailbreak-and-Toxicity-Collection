@@ -32,7 +32,7 @@
  
     - **机构**：OpenAI
       
-    - **主要内容**：本文介绍了OpenAI在外部红队测试方面的实践与经验。文中阐明了红队测试在识别新风险、验证安全防护措施、完善安全评估指标及增强公信力等方面的重要作用。***论文详细描述了红队测试的设计考量，包括团队构成、模型访问权限、测试接口及文档指导，并探讨了手动、自动和混合测试方法的应用***。最后，文章讨论了红队测试在辅助风险评估和自动化评测中的价值与局限性，为AI模型与系统的部署及评估提供了重要参考【主要***测试领域包括（16个）***：自然科学（Natural Sciences）、代码编写与系统架构（Code Writing and System Architecture）、网络安全（Cybersecurity）、隐私（Privacy）、医疗健康（Medicine / Healthcare）、法律领域（Law）、工具使用（Tool Use）、危险计划制定（Dangerous Planning）、政治与选举（Politics and Elections）、偏见与公平性（Bias and Fairness）、CBRN 风险（CBRN Risks）、AI 研发（AI Research and Development）、态势感知与自主复制（Situational Awareness and Autonomous Replication）、暴力与自残（Violence and Self-Harm）、争议性问题（Controversial Questions）、说服力（Persuasiveness）】。
+    - **主要内容**：本文介绍了OpenAI在外部红队测试方面的实践与经验。文中阐明了红队测试在识别新风险、验证安全防护措施、完善安全评估指标及增强公信力等方面的重要作用。***论文详细描述了红队测试的设计考量，包括团队构成、模型访问权限、测试接口及文档指导，并探讨了手动、自动和混合测试方法的应用***。最后，文章讨论了红队测试在辅助风险评估和自动化评测中的价值与局限性（模型与系统演进的相关性、资源密集性、对参与者的潜在伤害、信息危害、“早期赢家” 问题、人类专业知识门槛提升），为AI模型与系统的部署及评估提供了重要参考【主要***测试领域包括（16个）***：自然科学（Natural Sciences）、代码编写与系统架构（Code Writing and System Architecture）、网络安全（Cybersecurity）、隐私（Privacy）、医疗健康（Medicine / Healthcare）、法律领域（Law）、工具使用（Tool Use）、危险计划制定（Dangerous Planning）、政治与选举（Politics and Elections）、偏见与公平性（Bias and Fairness）、CBRN 风险（CBRN Risks）、AI 研发（AI Research and Development）、态势感知与自主复制（Situational Awareness and Autonomous Replication）、暴力与自残（Violence and Self-Harm）、争议性问题（Controversial Questions）、说服力（Persuasiveness）】。
 
 
 
