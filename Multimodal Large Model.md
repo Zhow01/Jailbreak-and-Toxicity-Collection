@@ -33,7 +33,7 @@
 
  #### Others
 
-- 【2025-03】[Commander-GPT: Fully Unleashing the Sarcasm Detection Capability of Multi-Modal Large Language Models](https://arxiv.org/abs/2503.18681)（arXiv:2503，Sarcasm）
+- 【2025-03】[Commander-GPT: Fully Unleashing the Sarcasm Detection Capability of Multi-Modal Large Language Models](https://arxiv.org/abs/2503.18681)（arXiv:2503，Sarcasm Detection）
 
   <details>
   
