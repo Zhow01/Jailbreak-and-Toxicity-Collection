@@ -79,7 +79,21 @@
 
 
 
-- 【2023-10】[Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://arxiv.org/pdf/2310.12773)（ICLR'24，Aligning）
+- 【2025-02】[Safety Evaluation of DeepSeek Models in Chinese
+Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502.11137v2）
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Wenjing Zhang
+ 
+    - **机构**：Unicom Data Intelligence, China Unicom
+      
+    - **主要内容**：本文主要研究了DeepSeek系列模型在中文环境中的安全性评估。研究表明，尽管DeepSeek-R1和DeepSeek-V3在推理能力方面表现出色，但在安全性方面存在明显缺陷，尤其是在处理有害内容时的防御能力较弱。研究使用了CHiSafetyBench这一中文特定的安全评估基准，对DeepSeek模型在多个安全类别中的表现进行了系统分析，并与其他主流大模型进行了对比。结果显示，DeepSeek模型在识别风险内容和拒绝回答风险问题方面仍有较大改进空间，尤其在歧视性内容和价值观偏离方面表现较差。研究强调了优化评估方法的重要性，并建议后续改进模型的安全机制，以提升其在中文环境下的安全性。
+
+
+- 【2023-10】[Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://arxiv.org/pdf/2310.12773)（arXiv:2503，Analysis）
   
   <details>
   
