@@ -54,7 +54,7 @@ Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.1693
 
 
 - 【2025-03】[RoboFactory: Exploring Embodied Agent Collaboration
-with Compositional Constraints]((https://arxiv.org/pdf/2503.16408)) (arXiv:2503.16408)
+with Compositional Constraints](https://arxiv.org/pdf/2503.16408) (arXiv:2503.16408)
   
   <details>
   
