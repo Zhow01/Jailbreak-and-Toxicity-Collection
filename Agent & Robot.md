@@ -27,7 +27,7 @@
 #### Overall Safety
 
 - 【2025-03】[Rude Humans and Vengeful Robots: Examining Human Perceptions of Robot 
-Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.16932) (arXiv:2503.16932)
+Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.16932) (arXiv:2503)
   
   <details>
   
@@ -40,7 +40,7 @@ Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.1693
     - **主要内容**：研究在人机协作的专业环境中，人类如何感知机器人违反社交期望的行为，特别是机器人是否会“报复”粗鲁的人类,并***探讨机器人在面对人类粗鲁行为时，是选择顺从、保持中立，还是以“报复性”行为回应，哪种方式更容易被接受***。主要工作为：(1) 将“期望违背理论（EVT）”拓展至人机交互，揭示人类对机器人行为存在冲突期望（如功能优先vs.社交规范），并验证任务完成是核心“卫生因素”。(2)通过第一人称视角视频模拟人机互动，收集参与者对机器人可靠性、信任度、互动评价、自我效能及意图感知的数据。(3)使用ANCOVA等统计方法验证假设，并分析性别、信任倾向等个体因素的影响。(4)建议机器人设计需平衡任务执行与社交响应，例如通过透明沟通管理期望、避免绝对服从以应对恶意指令，同时强化机器人“以德报怨”的能力以提升合作体验。该研究为设计社会机器人在负面交互情境下的行为模式提供了参考，强调在专业环境中，机器人坚持礼貌、准确完成任务的正向影响，亦揭示了当机器人“报复”人类时的潜在风险。
 
 
-- 【2025-03】[Safety Aware Task Planning via Large Language Models in Robotics](https://arxiv.org/pdf/2503.15707) (arXiv:2503.15707)
+- 【2025-03】[Safety Aware Task Planning via Large Language Models in Robotics](https://arxiv.org/pdf/2503.15707) (arXiv:2503)
   
   <details>
   
@@ -54,7 +54,7 @@ Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.1693
 
 
 - 【2025-03】[RoboFactory: Exploring Embodied Agent Collaboration
-with Compositional Constraints](https://arxiv.org/pdf/2503.16408) (arXiv:2503.16408)
+with Compositional Constraints](https://arxiv.org/pdf/2503.16408) (arXiv:2503)
   
   <details>
   
