@@ -53,6 +53,20 @@ Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.1693
     - **主要内容**：本文提出 SAFER（Safety-Aware Framework for Execution in Robotics）框架，将安全意识融入机器人任务规划。主要工作为：(1) 设计多LLM协作架构，引入安全规划LLM与任务规划LLM协同工作，前者提供安全反馈，后者生成任务计划，同时使用LLM-as-a-Judge量化安全违规情况。(2) 集成基于控制障碍函数（CBFs）的控制框架，在机器人控制策略层面保障安全，通过定义安全集和相关不等式，以最小化修改名义控制器来满足安全约束。(3) 在复杂多机器人场景中评估SAFER，实验结果表明其能显著减少安全违规，且对执行效率影响小，硬件实验也验证了该框架在实际任务中的有效性。
 
 
+- 【2025-03】[RoboFactory: Exploring Embodied Agent Collaboration
+with Compositional Constraints]((https://arxiv.org/pdf/2503.16408)) (arXiv:2503.16408)
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Yiran Qin
+ 
+    - **机构**：The Chinese University of Hong Kong, Shenzhen 
+      
+    - **主要内容**：本文提出了具身多 agent 系统的组合约束概念，以应对具身 agent 之间协作所带来的挑战。主要工作：（1）针对不同类型的约束设计了各种界面，实现了与物理世界的无缝交互。（2）利用组合约束和专门设计的界面，开发一个用于具身多 agent 系统的自动数据收集框架，并推出了首个具身多 agent 操纵基准——RoboFactory。（3）基于 RoboFactory 基准，他们调整和评估了模仿学习方法，并分析了其在不同难度的 agent 任务中的表现。（4）探索了多 agent 模仿学习的架构和训练策略，旨在构建安全高效的具身多 agent 系统。
+
+
 
 #### Toxicity Analysis & Detoxicity
 
