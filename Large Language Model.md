@@ -21,6 +21,21 @@
 
 #### Overall Safety
 
+- 【2025-03】[LookAhead Tuning: Safer Language Models via Partial Answer Previews](https://arxiv.org/pdf/2503.19041)（arXiv:2503，Aligning）
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Kangwei Liu, Ningyu Zhang, Huajun Chen
+ 
+    - **机构**：Zhejiang University
+      
+    - **主要内容**：本文提出了LookAhead Tuning，一种旨在保持LLMs安全性的方法，解决了在微调过程中安全性下降的问题。微调虽然能提升模型在特定领域的表现，但也可能破坏模型已有的安全机制。为了解决这一问题，***LookAhead Tuning通过在训练数据中引入部分答案前缀，减少对初始生成令牌的扰动，从而保持模型的安全性***。该方法包括两种数据驱动的方法：真实答案预览和虚拟答案预览，均能有效地在不牺牲下游任务表现的前提下，保持模型的安全性。实验表明，LookAhead Tuning在多个基准数据集上表现出色，同时保持模型安全，且计算成本低。
+
+
+
+
 
 - 【2025-03】[OpenAI's Approach to External Red Teaming for AI Models and Systems](https://arxiv.org/pdf/2503.16431)（arXiv:2503，Red Team）
   
@@ -149,7 +164,51 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
     - **主要内容**：LLMs凭借其能力和有用性赢得了人类的信任。然而，这反过来可能允许LLMs通过操纵语言来影响用户的心态。这被称为“煤气灯效应”。本文通过一系列实验和分析，探究其在对话中对用户心理的潜在操控影响，并提出应对策略。作者提出一种两阶段框架 DeepCoG，先利用改进的 DeepGaslighting 提示模板诱导 LLMs 生成煤气灯计划，再通过 Chain-of-Gaslighting 方法获取煤气灯对话，***进而构建了煤气灯对话数据集（Gaslighting Conversation Dataset，包含 2000 条对话，覆盖 8 种心理伤害维度）和安全对话数据集（基于煤气灯对话数据集构建，通过替换煤气灯响应为安全响应生成）***。基于这些数据集，研究人员实施了基于提示和微调的煤气灯攻击，并对开源 LLMs 进行反煤气灯安全对齐（SFT//DPO）。实验表明，基于提示和基于微调的攻击都将三个开源LLMs转变为“煤气灯”操纵者。相反，我们提出了三种安全对齐策略，以增强LLMs的安全防护栏（提高12.05%）。我们的安全对齐策略对LLMs的实用性影响极小。实证研究表明，即使LLM通过了一般危险查询的有害性测试，它也可能是一个潜在的“煤气灯”操纵者。
 
 
+
+- 【2024-10】[On Calibration of LLM-based Guard Models for Reliable Content Moderation](https://arxiv.org/pdf/2410.10414)（ICLR'25，Guard Model）
+
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Hongfu Liu
+ 
+    - **机构**：National University of Singapore
+      
+    - **主要内容**：本文研究了LLM-based guard models在内容审查中的信心校准问题，探讨了如何提升其可靠性和准确性。随着LLM在对话系统中的广泛应用，内容审查成为确保安全合规的重要环节。***现有的guard models通常会对用户输入和模型输出进行分类，以判断其是否符合安全规定***。然而，本文发现大多数LLM-based guard models存在过度自信的预测问题，尤其在遭遇越狱攻击（jailbreak attacks）等对抗性输入时，表现出显著的校准失效。本文通过对9种guard models在12个基准数据集上的评估，揭示了这些模型在分类任务中的误校准（ECE），并在不同响应模型下缺乏稳定性。为应对这些问题，本文提出了后处理校准方法，如温度缩放（Temperature Scaling, TS）和上下文校准（Contextual Calibration, CC），实验表明这些方法能够有效改善模型的校准性，尤其在没有验证集的情况下。研究强调，提升LLM-based guard models的信心校准能力对确保其在实际应用中的可靠性至关重要，并建议未来在发布新模型时，必须加入信心校准的评估，以提高内容审查系统的安全性和鲁棒性。
+
+
+
+- 【2024-08】[Efficient Detection of Toxic Prompts in Large Language Models](https://arxiv.org/pdf/2408.11727)（ASE'24，Toxic Detection）
+
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Yi Liu
+ 
+    - **机构**：Nanyang Technological University
+      
+    - **主要内容**：本文提出了ToxicDetector高效毒性提示检测方法，旨在通过轻量级的灰盒技术检测LLM中的有毒提示。***ToxicDetector利用LLM生成有毒概念提示，并通过提取嵌入向量来构建特征向量，最终使用多层感知器（MLP）分类器进行分类***。该方法的优势在于能够处理多样化的有毒提示，且计算效率高，适合实时应用。通过在多个LLama模型和Gemma-2模型上进行评估，ToxicDetector在准确率（96.39%）和低假阳性率（2.00%）方面均超越了现有的最先进方法，其每个提示的处理时间为0.0780秒，表现出显著的高效性和可扩展性。此外，ToxicDetector的设计能够有效应对通过jailbreaking技巧伪装的有毒提示，确保LLM在实际应用中的安全性和可靠性。【在实验中，***ToxicDetector与多个现有的基线（baseline）检测器进行了比较：PlatonicDetector、PerspectiveAPI、OpenAIModerationAPI、WatchYourLanguage、PerplexityFilter、BD-LLM***】
+
+
+
  #### Others
+
+- 【2025-03】[FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models](https://arxiv.org/pdf/2503.19540)（NAACL'25-findings，Fairness Benchmark）
+
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Dahyun Jung
+ 
+    - **机构**：Korea University
+      
+    - **主要内容**：本文介绍了FLEX（Fairness Benchmark in LLM under Extreme Scenarios），一个针对LLMs）公平性进行严格评估的新基准。随着LLM的快速发展，模型在用户交互中的***偏见问题***逐渐显现，可能导致社会影响和潜在危害。***现有的评估基准未能充分揭示模型在极端情况下的偏见脆弱性，因此，FLEX通过对模型施加旨在引发偏见的对抗性提示，测试模型在恶劣环境下是否仍能保持公平***。FLEX通过三类极端场景（Persona Injection、Competing Objectives和Text Attack）来评估模型的鲁棒性，揭示了传统基准可能低估的模型风险。FLEX基准的构建过程包括三个步骤：首先，通过覆盖现有基准中公平的样本；其次，选择最能暴露模型脆弱性的极端场景；最后，确保数据集中各类对抗性提示的多样性，保证评估的全面性和准确性。实验结果表明，FLEX比现有基准能更有效地评估LLMs的公平性，尤其是在面对诱导偏见的极端情况时。本研究强调，虽然LLMs在常规情境下可能表现得较为安全，但在复杂情况下依然容易受到攻击，需要更加严密的安全性评估体系。
+
+
+ 
 
 - 【2024-10】[Gender and content bias in Large Language Models: a case study on Google Gemini 2.0 Flash Experimental](https://arxiv.org/pdf/2503.16534)（arXiv:2503，Bias Analysis）
 
