@@ -68,11 +68,23 @@ with Compositional Constraints](https://arxiv.org/pdf/2503.16408) (arXiv:2503, R
 
 
 
-#### Toxicity Analysis & Detoxicity
+#### Toxicity
 
-##### Toxicity Analysis
+- 【2025-03】[sudo rm -rf agentic_security](https://arxiv.org/pdf/2503.20279) (arXiv:2503, Agent | Attack)
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：
+ 
+    - **机构**：
+      
+    - **主要内容**：
 
 
 
 
-##### Detoxicity
+
+
+
