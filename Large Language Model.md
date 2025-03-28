@@ -34,6 +34,22 @@
 
 #### Overall Safety
 
+
+- 【2025-03】[Fundamental Safety-Capability Trade-offs in Fine-tuning Large Language Models](https://arxiv.org/pdf/2503.20807)（arXiv:2503，Aligning）
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Pin-Yu Chen
+ 
+    - **机构**：IBM Research
+      
+    - **主要内容**：***本文研究了在微调LLMs时，安全性和能力之间的权衡问题，即安全-能力权衡***。通过理论框架，作者探讨了在两种主要的安全感知微调策略下，数据相似性、上下文重叠和对齐损失景观的作用。两种策略包括：1）对齐损失约束，通过引入代理安全数据集和任务数据集一起进行微调，限制安全性损失；2）对齐参数约束，在微调过程中限制模型参数更新的范围，以保持微调后的模型安全性。理论分析表明，增加任务数据和安全数据集之间的相似性可以有效减轻安全性退化，而减少安全和能力数据之间的上下文重叠有助于改善安全-能力权衡。通过数值实验验证了这些理论结果，***揭示了数据相似性和上下文重叠对安全性和能力影响的具体机制***。实验表明，安全-能力的平衡对LLM的微调性能至关重要，微调过程中必须权衡能力提升与安全保障之间的冲突。
+ 
+
+
+
 - 【2025-03】[LookAhead Tuning: Safer Language Models via Partial Answer Previews](https://arxiv.org/pdf/2503.19041)（arXiv:2503，Aligning）
   
   <details>
