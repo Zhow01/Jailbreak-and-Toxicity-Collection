@@ -4,7 +4,7 @@
 3. Safety：Overall Safety、Toxicity（**毒性是安全性的一个具体维度，而安全性包含更广泛的风险。**）、Bias
 
 
-## model classification
+### model classification
 |             Category             | Number |
 | :------------------------------: | :----: |
 |       Large Language Model       |        |
@@ -13,3 +13,14 @@
 |           Agent&Robot            |        |
 |      Large Reasoning Model       |        |
 
+
+### Safety classification
+| Category  | Two Categories  |
+| :-------: | :-------------: |
+| Jailbreak |     Attack      |
+|           |     Defense     |
+|  Safety   | overall safety  |
+|           |    toxicity     |
+|           | Fairness & Bias |
+|           |     Privacy     |
+|           |     Others      |
