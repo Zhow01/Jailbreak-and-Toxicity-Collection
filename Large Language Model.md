@@ -2,6 +2,19 @@
 ### Jailbreak Attack & Defense
 #### Jailbreak Attack
 
+- 【2025-03】[Iterative Prompting with Persuasion Skills in Jailbreaking Large Language Models](https://arxiv.org/pdf/2503.20320)（arXiv:2503）
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Shih-Wen Ke
+ 
+    - **机构**：National Central University, Zhongli District, Taoyuan City 320, Taiwan
+      
+    - **主要内容**：本文研究了利用迭代提示技术对LLMs进行越狱攻击的方法。***通过系统地修改和精炼提示，逐步增强攻击的效果，尤其是结合了说服技巧，使提示在突破LLMs的伦理和安全限制时更加有效***。研究分析了多种LLMs，包括GPT-3.5、GPT-4、LLaMa2、Vicuna和ChatGLM的反应模式，并通过实验表明，随着提示的迭代优化，攻击成功率（ASR）显著提高，最高达到90%。本文提出的攻击框架在攻防过程中展现了较高的成功率，并且与现有的攻击方法相比，表现出更优的效果。研究还探讨了如何通过加权攻击成功率（WASR）对不同模型的防御能力进行量化评估，并为AI安全性提供了改进建议。
+
+
 
 #### Jailbreak Defense
 
