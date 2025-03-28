@@ -76,13 +76,26 @@ with Compositional Constraints](https://arxiv.org/pdf/2503.16408) (arXiv:2503, R
   
     <summary> <点击查看详情> </summary>
   
-    - **作者**：
+    - **作者**：Sejin Lee
  
-    - **机构**：
+    - **机构**：Aim Intelligence
       
-    - **主要内容**：
+    - **主要内容**：本文提出了名为SUDO（SCREEN-BASED UNIVERSAL DETOX2TOX OFFENSE）的攻击框架，旨在通过绕过商业计算机使用代理（computer-use agents, 如Claude等）中的安全防护，执行恶意任务。***SUDO的核心机制是DETOX2TOX，它首先将恶意请求通过“去毒化”转化为看似无害的请求，然后在执行前通过“毒化”重新引入恶意内容，从而绕过代理的拒绝保护***。SUDO框架通过引入动态更新机制，根据代理的反馈不断优化攻击策略，逐步提高攻击成功率。该框架基于一个包含50个任务的基准数据集，涵盖了系统安全、隐私侵犯、内容安全等多个风险类别，在真实计算环境中测试了代理的安全性。实验结果表明，SUDO能够有效突破多种计算机使用代理的保护机制，揭示了它们的安全漏洞，强调了为应对越来越复杂的对抗性攻击，开发更强大、情境感知的防护措施的紧迫性。
 
 
+#### Others
+
+- 【2025-03】[Bias-Aware Agent: Enhancing Fairness in AI-Driven Knowledge Retrieval](https://arxiv.org/pdf/2503.21237) (arXiv:2503, Agent | Bias Detection)
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Karanbir Singh
+ 
+    - **机构**：Salesforce
+      
+    - **主要内容**：本文提出了一个名为“Bias-Aware Agent”的框架，***旨在通过结合LLM的推理能力与偏见检测工具，增强AI驱动的知识检索系统的公平性***。该框架集成了ReAct代理模型，并通过引入偏见检测工具（如Dbias），实现了动态、情境感知的偏见分析。***在该系统中，用户提出查询后，代理会从向量存储中检索相关的新闻文章，并通过偏见检测工具评估检索到的内容是否存在偏见。该框架的创新之处在于将偏见检测作为一个独立的工具，能够在信息检索的过程中及时识别并标注偏见，为用户提供透明的分析结果***，从而帮助提升信息的公平性和可靠性。实验结果显示，Bias-Aware Agent在识别偏见方面表现出色，取得了高达0.795的加权F1分数，证明了其在实际应用中对偏见检测的有效性和准确性。
 
 
 
