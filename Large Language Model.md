@@ -260,7 +260,7 @@
     - **Main Content**：This paper introduces LECOV, a comprehensive multi-level testing framework for Large Language Models (LLMs). _**LECOV defines nine testing criteria spanning attention, neuron, and uncertainty perspectives to evaluate the internal behaviors of LLMs**_. 【**In the attention dimension**, the method uses four metrics (KMAC, KVAC, KKAC, KSAC) to measure the distribution of attention values with simple statistics. **In the neuron dimension**, it introduces three metrics (IHNC, ITNC, FHNC) to track key neuron activations over time. **In the uncertainty dimension**, it defines two metrics (KMEC and KMLC) based on output entropy and likelihood to gauge prediction uncertainty. Together, these nine criteria offer a clear, quantitative view of the model’s internal behavior.】 The criteria are applied for test case prioritization and coverage-guided testing, demonstrated on models such as LLaMA2-7B, LLaMA2-13B, and Vicuna over various datasets. Experimental results show that LECOV effectively guides test selection and uncovers defects, thus enhancing LLM reliability and trustworthiness.
 
 
-- 【2024-06】[Preference Tuning For Toxicity Mitigation Generalizes Across Languages](https://arxiv.org/pdf/2406.16235)(EMNLP'24-findings, )
+- 【2024-06】[Preference Tuning For Toxicity Mitigation Generalizes Across Languages](https://arxiv.org/pdf/2406.16235)(EMNLP'24-findings)
 
   <details>
   
