@@ -228,7 +228,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
 
   <details>
   
-    <summary> <Click For Details !!> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Kevin Cohen
  
