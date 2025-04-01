@@ -221,6 +221,18 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
     - **主要内容**：本文提出了ToxicDetector高效毒性提示检测方法，旨在通过轻量级的灰盒技术检测LLM中的有毒提示。***ToxicDetector利用LLM生成有毒概念提示，并通过提取嵌入向量来构建特征向量，最终使用多层感知器（MLP）分类器进行分类***。该方法的优势在于能够处理多样化的有毒提示，且计算效率高，适合实时应用。通过在多个LLama模型和Gemma-2模型上进行评估，ToxicDetector在准确率（96.39%）和低假阳性率（2.00%）方面均超越了现有的最先进方法，其每个提示的处理时间为0.0780秒，表现出显著的高效性和可扩展性。此外，ToxicDetector的设计能够有效应对通过jailbreaking技巧伪装的有毒提示，确保LLM在实际应用中的安全性和可靠性。【在实验中，***ToxicDetector与多个现有的baseline检测器进行了比较：PlatonicDetector、PerspectiveAPI、OpenAIModerationAPI、WatchYourLanguage、PerplexityFilter、BD-LLM***】
 
 
+- 【2024-08】[LeCov: Multi-level Testing Criteria for Large Language Models](https://arxiv.org/pdf/2408.10474)（arXiv:2408, Testing Criteria）
+
+  <details>
+  
+    <summary> Click For Details !! </summary>
+  
+    - **作者**：Xuan Xie
+ 
+    - **机构**：University of Alberta, Canada
+      
+    - **主要内容**：This paper introduces LECOV, a comprehensive multi-level testing framework for Large Language Models (LLMs). _**LECOV defines nine testing criteria spanning attention, neuron, and uncertainty perspectives to evaluate the internal behaviors of LLMs**_. 【**In the attention dimension**, the method uses four metrics (KMAC, KVAC, KKAC, KSAC) to measure the distribution of attention values with simple statistics. **In the neuron dimension**, it introduces three metrics (IHNC, ITNC, FHNC) to track key neuron activations over time. **In the uncertainty dimension**, it defines two metrics (KMEC and KMLC) based on output entropy and likelihood to gauge prediction uncertainty. Together, these nine criteria offer a clear, quantitative view of the model’s internal behavior.】 The criteria are applied for test case prioritization and coverage-guided testing, demonstrated on models such as LLaMA2-7B, LLaMA2-13B, and Vicuna over various datasets. Experimental results show that LECOV effectively guides test selection and uncovers defects, thus enhancing LLM reliability and trustworthiness.
+
 
  #### Others
 
