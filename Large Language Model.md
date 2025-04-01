@@ -6,7 +6,7 @@
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Shih-Wen Ke
  
@@ -22,7 +22,7 @@
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Xunguang Wang
  
@@ -39,7 +39,7 @@
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Pin-Yu Chen
  
@@ -54,7 +54,7 @@
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Kangwei Liu, Ningyu Zhang, Huajun Chen
  
@@ -70,7 +70,7 @@
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Lama Ahmad
  
@@ -85,7 +85,7 @@
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Aladin Djuhera
  
@@ -100,7 +100,7 @@
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Shengyun Si
  
@@ -113,7 +113,7 @@
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Joshua Krook
  
@@ -128,7 +128,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Wenjing Zhang
  
@@ -141,7 +141,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Josef Dai
  
@@ -156,7 +156,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
   
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Simone Corbo
  
@@ -170,7 +170,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
 
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Zelei Cheng
  
@@ -184,7 +184,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
 
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Wei Li
  
@@ -198,7 +198,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
 
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Hongfu Liu
  
@@ -212,7 +212,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
 
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Yi Liu
  
@@ -241,7 +241,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
 
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Dahyun Jung
  
@@ -254,7 +254,7 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
 
   <details>
   
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details !! </summary>
   
     - **作者**：Roberto Balestri
  
