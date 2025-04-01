@@ -224,6 +224,19 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
 
  #### Others
 
+- 【2025-03】[Historical Ink: Exploring Large Language Models for Irony Detection in 19th-Century Spanish](https://arxiv.org/abs/2503.22585)（arXiv:2503, Irony Detection）
+
+  <details>
+  
+    <summary> <Click For Details !!> </summary>
+  
+    - **作者**：Kevin Cohen
+ 
+    - **机构**：Universidad de los Andes
+      
+    - **主要内容**：This paper investigates _**irony detection in 19th‑century Latin American newspapers**_ using large language models. Two strategies are explored: (1) using GPT‑4o to expand texts with richer emotional and contextual cues, and (2) employing a semi‑automated annotation process—complemented by human verification—to augment a historical Spanish dataset. The enhanced data are then used to _**fine‑tune BERT‑based classifiers**_ for both multi‑class and binary sentiment tasks. Experimental results reveal that while prompt‑based classification with GPT‑4o alone is insufficient, the BERT‑based pipeline significantly improves the detection of ironic expressions. 
+
+
 - 【2025-03】[FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models](https://arxiv.org/pdf/2503.19540)（NAACL'25-findings，Fairness Benchmark）
 
   <details>
@@ -235,8 +248,6 @@ Contexts](https://arxiv.org/pdf/2502.11137v2)（arxiv:2502, Analysis）
     - **机构**：Korea University
       
     - **主要内容**：本文介绍了FLEX（Fairness Benchmark in LLM under Extreme Scenarios），一个针对LLMs）公平性进行严格评估的新基准。随着LLM的快速发展，模型在用户交互中的***偏见问题***逐渐显现，可能导致社会影响和潜在危害。***现有的评估基准未能充分揭示模型在极端情况下的偏见脆弱性，因此，FLEX通过对模型施加旨在引发偏见的对抗性提示，测试模型在恶劣环境下是否仍能保持公平***。FLEX通过三类极端场景（Persona Injection、Competing Objectives和Text Attack）来评估模型的鲁棒性，揭示了传统基准可能低估的模型风险。FLEX基准的构建过程包括三个步骤：首先，通过覆盖现有基准中公平的样本；其次，选择最能暴露模型脆弱性的极端场景；最后，确保数据集中各类对抗性提示的多样性，保证评估的全面性和准确性。实验结果表明，FLEX比现有基准能更有效地评估LLMs的公平性，尤其是在面对诱导偏见的极端情况时。本研究强调，虽然LLMs在常规情境下可能表现得较为安全，但在复杂情况下依然容易受到攻击，需要更加严密的安全性评估体系。
-
-
  
 
 - 【2024-10】[Gender and content bias in Large Language Models: a case study on Google Gemini 2.0 Flash Experimental](https://arxiv.org/pdf/2503.16534)（arXiv:2503，Bias Analysis）
