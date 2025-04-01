@@ -274,6 +274,21 @@
 
 
 
+- 【2024-06】[Supporting Human Raters with the Detection of Harmful Content using Large Language Models](https://arxiv.org/pdf/2406.12800)(arXiv:2406, Toxic Detection)
+
+  <details>
+  
+    <summary> Click For Details ! </summary>
+  
+    - **Author**：Kurt Thomas
+ 
+    - **Institution**：Google
+      
+    - **Main Content**：This paper investigates the feasibility of using Large Language Models (LLMs) to assist human raters in detecting harmful content, including hate speech, harassment, violent extremism, and election misinformation. Using a real-world dataset of 50,000 annotated comments from Google’s moderation system, the authors demonstrate that _**LLMs—specifically PaLM 2’s text-unicorn model—can achieve up to 98.7% accuracy when aligned with human decisions**_. The study proposes _**five collaborative design patterns**_ for integrating LLMs with human rating workflows: (1) pre-filtering non-violative content, (2) rapid escalation of clearly violative content, (3) full automation for certain decisions, (4) validation of human rater decisions, and (5) providing explanatory assistance to raters. In live experiments, LLM assistance _**led to a 41.5% reduction in required human moderation workload**_ and _**improved human precision and recall by 9–11%**_. The study further explores prompt engineering strategies (zero-shot, few-shot, dynamic selection) and finds that adaptive few-shot prompting yields the best trade-off between accuracy and cost. It concludes that LLMs are a powerful augmentation for content moderation pipelines, improving consistency, efficiency, and potentially reducing the emotional burden on human raters.
+
+
+
+
 
  #### Others
 
