@@ -2,6 +2,20 @@
 ### Jailbreak Attack & Defense
 #### Jailbreak Attack
 
+- 【2025-03】[Output Constraints as Attack Surface: Exploiting Structured Generation to Bypass LLM Safety Mechanisms](https://arxiv.org/pdf/2503.24191)(arXiv:2503)
+  
+  <details>
+  
+    <summary> Click For Details ! </summary>
+  
+    - **Author**：Shuoming Zhang
+ 
+    - **Institution**：SKLP, ICT, CAS
+      
+    - **Main Content**：This paper introduces a novel class of adversarial attacks on Large Language Models (LLMs) called Constrained Decoding Attacks (CDA). _**Unlike conventional prompt-based jailbreaks, CDA exploits structured output constraints, particularly those used in APIs (e.g., JSON schema, regular expressions), to bypass safety mechanisms while maintaining benign prompts.**_ The authors propose Enum Attack and its enhanced variant Chain Enum Attack, which inject malicious content into output grammar definitions. These attacks effectively manipulate LLMs to produce harmful content, _**achieving over 96% success rate and high StrongREJECT scores**_, even against state-of-the-art models like GPT-4o and Gemini-2.0-flash. 
+
+
+
 - 【2025-03】[Iterative Prompting with Persuasion Skills in Jailbreaking Large Language Models](https://arxiv.org/pdf/2503.20320)(arXiv:2503)
   
   <details>
@@ -247,6 +261,7 @@
 
 
  #### Others
+
 
 - 【2025-03】[Historical Ink: Exploring Large Language Models for Irony Detection in 19th-Century Spanish](https://arxiv.org/abs/2503.22585)(arXiv:2503, Irony Detection)
 
