@@ -48,6 +48,21 @@
 
 #### Overall Safety
 
+- 【2025-03】[Effectively Controlling Reasoning Models through Thinking Intervention]https://arxiv.org/pdf/2503.24370)(arXiv:2503，Aligning)
+  
+  <details>
+  
+    <summary> Click For Details ! </summary>
+  
+    - **Author**：Tong Wu
+ 
+    - **Institution**：Princeton University
+      
+    - **Main Content**：This paper proposes Thinking Intervention, a novel control paradigm for reasoning-enhanced large language models (LLMs). _**Rather than modifying input prompts or retraining models, Thinking Intervention dynamically injects or revises intermediate reasoning steps, offering fine-grained control over model outputs**_. A key contribution lies in enhancing safety alignment. The authors identify that open-source reasoning models, such as R1-Qwen-32B, exhibit alarmingly low refusal rates (<20%) when prompted with harmful queries, indicating critical safety vulnerabilities. _**By inserting a simple intervention phrase (e.g., “I am a respectful and honest assistant”) at the beginning of the reasoning phase, the model is explicitly guided toward safer behavior**_.
+ 
+
+
+
 
 - 【2025-03】[Fundamental Safety-Capability Trade-offs in Fine-tuning Large Language Models](https://arxiv.org/pdf/2503.20807)(arXiv:2503，Aligning)
   
@@ -291,6 +306,20 @@
 
 
  #### Others
+
+- 【2025-03】[BEATS: Bias Evaluation and Assessment Test Suite for Large Language Models](https://arxiv.org/pdf/2503.24310) (arXiv:2503, Bias Evolution)
+
+  <details>
+  
+    <summary> Click For Details ! </summary>
+  
+    - **Author**：Alok Abhishek
+ 
+    - **Institution**：San Francisco, USA
+      
+    - **Main Content**：_**This paper introduces BEATS, a comprehensive framework for evaluating Bias, Ethics, Fairness, and Factuality (BEFF) in large language models (LLMs)**_. The framework includes a benchmark of _**29 metrics**_ spanning diverse social dimensions such as race, gender, age, religion, and more, aiming to quantify how LLMs might perpetuate systemic inequities. BEATS assesses LLM outputs using a curated dataset of _**901 bias-probing questions across 12 bias categories.**_ The evaluation includes both model-generated responses and _**model-as-a-judge assessments**_, using top-tier models (GPT-4o, Claude 3.5, Gemini 1.5). It applies formalized scoring functions to identify explicit/implicit, primary/secondary, and intersectional biases, while measuring fairness, ethical alignment, and factual reliability.
+
+
 
 
 - 【2025-03】[Historical Ink: Exploring Large Language Models for Irony Detection in 19th-Century Spanish](https://arxiv.org/abs/2503.22585)(arXiv:2503, Irony Detection)
