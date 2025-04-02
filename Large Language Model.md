@@ -48,18 +48,18 @@
 
 #### Overall Safety
 
-- 【2025-03】[Effectively Controlling Reasoning Models through Thinking Intervention](https://arxiv.org/pdf/2503.24370) (arXiv:2503，Aligning)
+
+- 【2025-03】[Encrypted Prompt: Securing LLM Applications Against Unauthorized Actions](https://www.arxiv.org/pdf/2503.23250)(arXiv:2503，defense)
   
   <details>
   
     <summary> Click For Details ! </summary>
   
-    - **Author**：Tong Wu
+    - **Author**：Shih-Han Chan
  
-    - **Institution**：Princeton University
+    - **Institution**：University of California San Diego
       
-    - **Main Content**：This paper proposes Thinking Intervention, a novel control paradigm for reasoning-enhanced large language models (LLMs). _**Rather than modifying input prompts or retraining models, Thinking Intervention dynamically injects or revises intermediate reasoning steps, offering fine-grained control over model outputs**_. A key contribution lies in enhancing safety alignment. The authors identify that open-source reasoning models, such as R1-Qwen-32B, exhibit alarmingly low refusal rates (<20%) when prompted with harmful queries, indicating critical safety vulnerabilities. _**By inserting a simple intervention phrase (e.g., “I am a respectful and honest assistant”) at the beginning of the reasoning phase, the model is explicitly guided toward safer behavior**_.
- 
+    - **Main Content**：This paper presents a novel defense mechanism, Encrypted Prompt, _**designed to enhance the safety and integrity of Large Language Model (LLM) applications by preventing unauthorized actions**_, especially those induced by prompt injection attacks. Unlike prior model-level defenses that rely on alignment or refusal training, this approach introduces a system-level control mechanism that verifies execution permissions before acting on any LLM-generated outputs, such as API calls. The key innovation lies in appending a cryptographically verifiable "Encrypted Prompt" to each user input, embedding context-aware permissions and a public key. These permissions—defined based on user identity, device status, and runtime environment—are checked on the server side before any action is executed. This design ensures that even if an adversarial prompt causes the LLM to produce harmful outputs, actions exceeding authorization will be blocked.
 
 
 
