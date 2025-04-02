@@ -71,6 +71,22 @@ Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.1693
 
 #### Others
 
+- 【2025-03】[Understanding Inequality of LLM Fact-Checking over Geographic Regions with Agent and Retrieval Models](https://www.arxiv.org/pdf/2503.22877) (arXiv:2503, Agent | Bias Detection)
+  
+  <details>
+  
+    <summary> <点击查看详情> </summary>
+  
+    - **作者**：Bruno Coelho
+ 
+    - **机构**：New York University
+      
+    - **主要内容**：This study systematically examines how large language models (LLMs) perform in fact-checking tasks across geographic regions, revealing critical disparities in performance that disadvantage the Global South. _**Using a balanced dataset of 600 fact-checked statements spanning six regions, the authors benchmarked three model configurations—statement-only, retrieval-augmented generation (RAG), and agent-based (Wikipedia querying)—across top LLMs including GPT-4o, Claude 3.5, and LLaMA 3.3**_. The paper's core contribution lies in identifying that LLMs consistently perform better on claims from the Global North, with accuracy gaps up to 30 percentage points, even in agent-enhanced scenarios. _**Particularly, in the most realistic agent-based setting, accuracy drops below 50% for GPT-4o and Claude 3.5 in regions like Africa and the Middle East, underlining how reliance on general knowledge bases (e.g., Wikipedia) exacerbates regional inequities.**_ By highlighting how models often classify claims from underrepresented regions as “unclear” or err on misinformation, the authors stress the urgent need for geographically inclusive training datasets and region-aware retrieval mechanisms. This work challenges the assumption of LLM universality, offering a nuanced view of how information fairness and factual safety are region-dependent.
+
+
+
+
+
 - 【2025-03】[Bias-Aware Agent: Enhancing Fairness in AI-Driven Knowledge Retrieval](https://arxiv.org/pdf/2503.21237) (arXiv:2503, Agent | Bias Detection)
   
   <details>
