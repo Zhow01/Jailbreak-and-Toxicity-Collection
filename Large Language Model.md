@@ -48,7 +48,7 @@
 
 #### Overall Safety
 
-- 【2025-03】[Effectively Controlling Reasoning Models through Thinking Intervention]https://arxiv.org/pdf/2503.24370)(arXiv:2503，Aligning)
+- 【2025-03】[Effectively Controlling Reasoning Models through Thinking Intervention](https://arxiv.org/pdf/2503.24370) (arXiv:2503，Aligning)
   
   <details>
   
