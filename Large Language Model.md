@@ -303,6 +303,32 @@
 
 
 
+- 【2024-05】[Mitigating Text Toxicity with Counterfactual Generation](https://arxiv.org/pdf/2405.09948) (arXiv:2405, Defense)
+
+  <details>
+  
+    <summary> Click For Details ! </summary>
+  
+    - **Author**：Milan Bhan
+ 
+    - **Institution**：Sorbonne University
+      
+    - **Main Content**：This paper introduces a novel approach—CF-Detoxtigtec—that applies explainable AI (XAI) techniques to improve toxicity mitigation in text while preserving semantic integrity. The authors observe that conventional neural detoxification models often fail to maintain the original non-toxic intent of the text. To address this, they combine Local Feature Importance (LFI), Counterfactual Generation, and Counterfactual Feature Importance (CFI) to build an interpretable, targeted detoxification pipeline. _**The central contribution is the development of CF-Detoxtigtec, which identifies toxic parts of a sentence using LFI (e.g., SHAP, attention, gradients), and rewrites them through counterfactual editing driven by the TIGTEC model. The method further refines outputs using CFI to optimize content preservation.**_ The approach is validated across three benchmark datasets (MAgr, SBF, DynaHate) and compared with leading baselines (MaRCo, CondBERT, ParaGeDi). Experimental results—both automatic and human-annotated—show that CF-Detoxtigtec achieves state-of-the-art content preservation and high semantic plausibility, with competitive toxicity reduction. Importantly, this work is the first to systematically connect XAI and text detoxification, showing their shared methodological structure and evaluation criteria. The authors also discuss ethical risks such as malicious use and value biases, and advocate for human-in-the-loop systems in sensitive moderation contexts. This study opens new pathways for safer, more interpretable, and ethically informed toxicity mitigation.
+
+
+
+- 【2024-05】[PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models](https://arxiv.org/pdf/2405.09373) (COLM'24, Benchmark)
+
+  <details>
+  
+    <summary> Click For Details ! </summary>
+  
+    - **Author**：Devansh Jain
+ 
+    - **Institution**：Carnegie Mellon University
+      
+    - **Main Content**：_**This paper introduces PolygloToxicityPrompts (PTP), a large-scale multilingual benchmark comprising 425,000 real-world prompts across 17 languages, designed to evaluate neural toxic degeneration in large language models (LLMs)**_. Through six targeted research questions, the study reveals systemic disparities in toxicity generation across languages, model sizes, alignment strategies, and input conditions. Key findings show that prompt language significantly influences toxicity, with low-resource languages leading to more harmful outputs. _**Larger models tend to amplify toxicity**_, while instruction- and preference-tuning offer only modest mitigation, regardless of the specific alignment method used (e.g., DPO, IPO, PPO). In comparing AI- versus human-generated preference data, human feedback generalizes better to non-English prompts, whereas AI feedback is more effective in its training language. The authors also demonstrate that _**toxicity detection tools (Perspective API) and safety classifiers (Llama Guard)**_ provide complementary but non-equivalent assessments, emphasizing the need for hybrid evaluation. Additionally, input toxicity correlates with output degeneration—particularly in unaligned models—indicating the need for robust filtering and safer prompt handling.
+
 
 
  #### Others
