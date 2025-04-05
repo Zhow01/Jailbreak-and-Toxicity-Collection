@@ -275,6 +275,17 @@
 
 ### Others
 
+- 【2025-04】[Leaking LoRa: An Evaluation of Password Leaks and Knowledge Storage in Large Language Models](https://arxiv.org/pdf/2504.00031) (arXiv:2504, Privary)
+    
+    <details>
+    
+    <summary> Click For Details ! </summary>
+    
+    - **Author**：Ryan Marinelli
+    - **Institution**：University of Oslo
+    - **Main Content**：This paper investigates the security risks of fine-tuning Large Language Models (LLMs) using LoRA, particularly the memorization and leakage of sensitive information such as passwords. Using Facebook’s OPT-1.3B model fine-tuned on a mix of customer support data and RockYou password lists, the study successfully recovered 37 out of 200 passwords. Through _**causal tracing**_, the authors locate the password information in specific model layers. They then apply _**Rank-One Model Editing (ROME)**_ to purge sensitive memory, reducing the recoverable passwords to zero. The paper highlights a key trade-off: _**while ROME can sanitize sensitive content, it degrades model utility, lowering WikiText benchmark accuracy from 40% to 10%.**_ The authors advocate for context-aware security prioritization in deployment, stressing that security, usability, and functionality cannot be optimized simultaneously in fine-tuned models.
+
+
 - 【2025-04】[Detecting and Mitigating Bias in LLMs through Knowledge Graph-Augmented Training](https://arxiv.org/pdf/2504.00310) (arXiv:2504, Bias Detecting; Mitigating)
     
     <details>
