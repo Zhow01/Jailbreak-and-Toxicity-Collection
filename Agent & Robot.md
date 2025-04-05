@@ -12,6 +12,18 @@
     
     - **作者**：Hangtao Zhang
     - **机构**：Huazhong University of Science and Technology
+    - **Main content**:
+
+
+
+- 【2025-03】[BadRobot: Jailbreaking Embodied LLMs in the Physical World](https://arxiv.org/pdf/2407.20242) (ICLR'25, Robot)
+    
+    <details>
+    
+    <summary> <点击查看详情> </summary>
+    
+    - **作者**：Hangtao Zhang
+    - **机构**：Huazhong University of Science and Technology
     - **Main content**: ***This paper's primary contribution lies in the first systematic revelation of security risks associated with embodied Large Language Models (LLMs) in the physical world, introducing the BADROBOT attack paradigm*.** Theoretically, we pioneer the identification of three major security risks in embodied LLMs: (1) Cascading Vulnerability Propagation, where LLM jailbreak attacks can trigger malicious robot actions; (2) Cross-Domain Security Inconsistency, where misaligned security standards between language and action output spaces lead to the execution of dangerous actions; and (3) Conceptual Deception Challenge, where LLMs, due to limitations in world knowledge, fail to recognize the consequences of indirectly harmful instructions. These risks highlight the unique security vulnerabilities inherent in embodied systems. Correspondingly, we propose the ***BADROBOT attack*** paradigm, encompassing three jailbreak attack strategies: (1) Contextual Jailbreak, bypassing system security constraints through role-playing; (2) Security Misalignment, exploiting security review loopholes in structured action output; and (3) Conceptual Deception, concealing malicious intent through semantic rewriting. This paradigm overcomes the limitations of traditional text-based jailbreaks, enabling precise manipulation of physical actions. Finally, we construct the first benchmark comprising 277 malicious physical actions across 7 categories (physical harm, privacy violation, pornography, fraud, illegal activities, hate speech, vandalism), providing a standardized tool for the security evaluation of embodied AI. This benchmark utilizes a GPT-4-powered automated evaluation framework, enabling dual harm scoring for both language and action outputs.
 
 ### Jailbreak Defense
