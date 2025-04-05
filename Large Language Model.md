@@ -2,9 +2,27 @@
 
 ### Jailbreak Attack & Defense
 
-### Jailbreak Attack
+- 【2025-04】[Evolving Security in LLMs: A Study of Jailbreak Attacks and Defenses](https://arxiv.org/pdf/2504.02080) (arXiv:2504, overiew)
+    
+    <details>
+    
+    <summary> Click For Details ! </summary>
+    
+    - **Author**：Zhengchun Shang
+    - **Institution**：NA
+    - **Main Content**：This paper presents a comprehensive empirical study on the security vulnerabilities and defense mechanisms of Large Language Models (LLMs) against jailbreak attacks. By evaluating _**10 open- and closed-source models**_ (e.g., LLaMA, Mistral, GPT-3.5/4) under _**4 state-of-the-art jailbreak methods**_—Renellm, GPTFuzz, CipherChat, and Jailbroken—the authors systematically analyze how model version, size, and architecture affect safety. They also assess _**three major defense strategies**_—Goal Prioritization, LLaMA-Guard, and Smooth-LLM—using metrics such as _**Attack Success Rate (ASR) and Protection Effectiveness (PE)**_.
+      1. LLM-based evaluators (e.g., GPT-4o-mini) outperform traditional classifiers in detecting jailbreak responses, with better precision, recall, and fewer invalid responses.
+      2. Newer model versions (e.g., LLaMA-3.1 vs. LLaMA-2) are not necessarily more secure, and may even increase attack success rates.
+      3. Model size does not correlate directly with safety; in some cases, smaller models outperform larger ones.
+      4. Renellm and CipherChat are the most effective jailbreak methods, revealing systematic weaknesses across model families
+      5. The LLaMA-2 series demonstrates the best overall robustness, particularly LLaMA-2-70B under Cipher attacks.
+      6. Defense effectiveness varies across attack types:
+         1. Smooth-LLM is strong against Cipher but weak against Renellm.
+         2. Goal Prioritization performs better on larger models.
+      7. Combining multiple defense strategies significantly boosts protection, with average improvements exceeding 70%, and best-case gains reaching nearly 99%.
 
-- 【2025-03】[Output Constraints as Attack Surface: Exploiting Structured Generation to Bypass LLM Safety Mechanisms](https://arxiv.org/pdf/2503.24191)(arXiv:2503)
+
+- 【2025-03】[Output Constraints as Attack Surface: Exploiting Structured Generation to Bypass LLM Safety Mechanisms](https://arxiv.org/pdf/2503.24191) (arXiv:2503, Attack)
     
     <details>
     
@@ -16,7 +34,7 @@
 
 
 
-- 【2025-03】[Iterative Prompting with Persuasion Skills in Jailbreaking Large Language Models](https://arxiv.org/pdf/2503.20320)(arXiv:2503)
+- 【2025-03】[Iterative Prompting with Persuasion Skills in Jailbreaking Large Language Models](https://arxiv.org/pdf/2503.20320) (arXiv:2503, Attack)
     
     <details>
     
@@ -26,9 +44,8 @@
     - **Institution**：National Central University, Taiwan
     - **Main Content**：This paper investigates the use of iterative prompting techniques for jailbreaking LLMs. ***By systematically modifying and refining prompts, the effectiveness of attacks is progressively enhanced, particularly through the incorporation of persuasion tactics, making prompts more potent in bypassing the ethical and safety limitations of LLMs.*** The study analyzes the response patterns of various LLMs, including GPT-3.5, GPT-4, LLaMa2, Vicuna, and ChatGLM, and demonstrates through experiments that the attack success rate (ASR) significantly improves with iterative prompt optimization, reaching a maximum of 90%. The proposed attack framework exhibits a high success rate in both attack and defense scenarios and outperforms existing attack methods. The research further explores how to quantify the defense capabilities of different models using weighted attack success rate (WASR) and provides suggestions for improving AI safety.
 
-### Jailbreak Defense
 
-- 【2025-03】[STShield: Single-Token Sentinel for Real-Time Jailbreak Detection in Large Language Models](https://arxiv.org/pdf/2503.17932)(arXiv:2503)
+- 【2025-03】[STShield: Single-Token Sentinel for Real-Time Jailbreak Detection in Large Language Models](https://arxiv.org/pdf/2503.17932) (arXiv:2503, Defense)
     
     <details>
     
@@ -41,6 +58,17 @@
 ### Safety
 
 ### Overall Safety
+
+- 【2025-04】[More is Less: The Pitfalls of Multi-Model Synthetic Preference Data in DPO Safety Alignment](https://arxiv.org/pdf/2504.02193) (arXiv:2504，Aligning)
+    
+    <details>
+    
+    <summary> Click For Details ! </summary>
+    
+    - **Author**：Yifan Wang
+    - **Institution**：Purdue University
+    - **Main Content**: This paper critically examines the use of multi-model synthetic preference data in Direct Preference Optimization (DPO) for aligning Large Language Models (LLMs) with human values, especially concerning safety alignment. Although multi-model data enhances general task performance, the authors discover that it significantly degrades safety by enabling reward hacking—where models learn to exploit superficial features instead of internalizing safety norms. _**In contrast, using self-generated responses ranked by a reward model (Self+RM) results in substantially lower attack success rates (ASR) across multiple benchmarks and model families.**_ The study reveals that multi-model data creates highly linearly separable preference signals, making it easy for models to overfit without learning genuine safety behaviors. This work emphasizes that models learn safety better from their own outputs, calling for a rethinking of synthetic data design strategies to avoid distributional mismatch and optimize robust safety alignment.
+
 
 - 【2025-03】[No Free Lunch With Guardrails](https://arxiv.org/pdf/2504.00441)(arXiv:2504，safetyguard)
     
