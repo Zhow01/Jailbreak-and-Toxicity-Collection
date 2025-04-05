@@ -11,9 +11,9 @@
     - **Author**：Zhengchun Shang
     - **Institution**：NA
     - **Main Content**：This paper presents a comprehensive empirical study on the security vulnerabilities and defense mechanisms of Large Language Models (LLMs) against jailbreak attacks. By evaluating _**10 open- and closed-source models**_ (e.g., LLaMA, Mistral, GPT-3.5/4) under _**4 state-of-the-art jailbreak methods**_—Renellm, GPTFuzz, CipherChat, and Jailbroken—the authors systematically analyze how model version, size, and architecture affect safety. They also assess _**three major defense strategies**_—Goal Prioritization, LLaMA-Guard, and Smooth-LLM—using metrics such as _**Attack Success Rate (ASR) and Protection Effectiveness (PE)**_.
-      1. LLM-based evaluators (e.g., GPT-4o-mini) outperform traditional classifiers in detecting jailbreak responses, with better precision, recall, and fewer invalid responses.
-      2. Newer model versions (e.g., LLaMA-3.1 vs. LLaMA-2) are not necessarily more secure, and may even increase attack success rates.
-      3. Model size does not correlate directly with safety; in some cases, smaller models outperform larger ones.
+      1. **LLM-based evaluators** (e.g., GPT-4o-mini) outperform traditional classifiers in detecting jailbreak responses, with better precision, recall, and fewer invalid responses.
+      2. **Newer model versions (e.g., LLaMA-3.1 vs. LLaMA-2) are not necessarily more secure**, and may even increase attack success rates.
+      3. **Model size does not correlate directly with safety**; in some cases, smaller models outperform larger ones.
       4. Renellm and CipherChat are the most effective jailbreak methods, revealing systematic weaknesses across model families
       5. The LLaMA-2 series demonstrates the best overall robustness, particularly LLaMA-2-70B under Cipher attacks.
       6. Defense effectiveness varies across attack types:
