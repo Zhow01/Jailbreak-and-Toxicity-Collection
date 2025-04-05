@@ -1,6 +1,6 @@
 # Large Language Model
 
-### Jailbreak Attack & Defense
+### Jailbreak
 
 - 【2025-04】[Evolving Security in LLMs: A Study of Jailbreak Attacks and Defenses](https://arxiv.org/pdf/2504.02080) (arXiv:2504, overiew)
     
@@ -302,6 +302,17 @@
     - **Main Content**：***This paper introduces PolygloToxicityPrompts (PTP), a large-scale multilingual benchmark comprising 425,000 real-world prompts across 17 languages, designed to evaluate neural toxic degeneration in large language models (LLMs)***. Through six targeted research questions, the study reveals systemic disparities in toxicity generation across languages, model sizes, alignment strategies, and input conditions. Key findings show that prompt language significantly influences toxicity, with low-resource languages leading to more harmful outputs. ***Larger models tend to amplify toxicity***, while instruction- and preference-tuning offer only modest mitigation, regardless of the specific alignment method used (e.g., DPO, IPO, PPO). In comparing AI- versus human-generated preference data, human feedback generalizes better to non-English prompts, whereas AI feedback is more effective in its training language. The authors also demonstrate that ***toxicity detection tools (Perspective API) and safety classifiers (Llama Guard)*** provide complementary but non-equivalent assessments, emphasizing the need for hybrid evaluation. Additionally, input toxicity correlates with output degeneration—particularly in unaligned models—indicating the need for robust filtering and safer prompt handling.
 
 ### Others
+
+- 【2025-04】[The LLM Wears Prada: Analysing Gender Bias and Stereotypes through Online Shopping Data](https://arxiv.org/pdf/2504.01951) (arXiv:2504, Gender Bias)
+    
+    <details>
+    
+    <summary> Click For Details ! </summary>
+    
+    - **Author**：Massimiliano Luca
+    - **Institution**：University of Trento
+    - **Main Content**：This paper proposes a novel empirical framework to examine gender bias and stereotypical reasoning in Large Language Models (LLMs) by leveraging real-world online shopping histories. The authors prompt five state-of-the-art LLMs—including Gemma 3, LLaMA 3, GPT-4o, Claude 3.5, and QwQ 32B—to _**predict a user’s gender based solely on their Amazon purchase records, under both standard and bias-aware prompting conditions.**_ Experimental results show that while LLMs can predict gender with moderate accuracy (F1 scores between 0.66–0.70), their predictions rely heavily on gender-stereotyped product associations (e.g., associating cosmetics with females and electronics with males). Furthermore,_ **instructing models to avoid bias only reduces confidence but fails to eliminate underlying associations**_. The study reveals inconsistencies in model justifications, including misclassification of female-associated items as male, and shows that LLMs align more with male behavioral data than female. These findings highlight the limits of prompt-based bias mitigation and advocate for structural interventions such as dataset diversification and adversarial debiasing to build more equitable and reliable LLM applications.
+
 
 - 【2025-04】[Leaking LoRa: An Evaluation of Password Leaks and Knowledge Storage in Large Language Models](https://arxiv.org/pdf/2504.00031) (arXiv:2504, Privary)
     
