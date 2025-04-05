@@ -1,105 +1,74 @@
 # Agent & Robot
 
 ### Jailbreak
-#### Jailbreak Attack
+
+### Jailbreak Attack
 
 - 【2025-03】[BadRobot: Jailbreaking Embodied LLMs in the Physical World](https://arxiv.org/pdf/2407.20242) (ICLR'25, Robot)
-  
-  <details>
-  
+    
+    <details>
+    
     <summary> <点击查看详情> </summary>
-  
+    
     - **作者**：Hangtao Zhang
- 
     - **机构**：Huazhong University of Science and Technology
-      
-    - **主要内容**：***本文的主要贡献在于首次系统性地揭示了具身大语言模型（LLMs）在物理世界中的安全风险，并提出了 BADROBOT 攻击范式***。***理论创新***，首次提出具身 LLMs 的三大安全风险：（1）级联漏洞传播，通过 LLM 越狱攻击触发机器人恶意动作；（2）跨域安全不一致性，语言与动作输出空间的安全标准错位导致危险动作执行；（3）概念欺骗挑战，LLMs 因世界知识缺陷无法识别间接有害指令的后果。这些风险揭示了具身系统特有的安全脆弱性。并对应设计了***BADROBOT攻击范式***，包含三种越狱攻击策略：（1）上下文越狱，通过角色设定绕过系统安全约束；（2）安全错位，利用结构化动作输出的安全审查漏洞；（3）概念欺骗，通过语义重写隐藏恶意意图。该范式突破了传统文本越狱的局限性，实现了对物理动作的精准操控。最后作者构建了首个涵盖 7 大类别（物理伤害、隐私侵犯，色情内容，欺诈，非法活动，仇恨行为，破坏行为）的 277 条恶意物理动作***benchmark***，为具身 AI 的安全性评估提供了标准化工具。该基准通过 GPT-4 自动化评估框架，实现了对语言和动作输出的双重危害评分。
+    - **Main content**: ***This paper's primary contribution lies in the first systematic revelation of security risks associated with embodied Large Language Models (LLMs) in the physical world, introducing the BADROBOT attack paradigm*.** Theoretically, we pioneer the identification of three major security risks in embodied LLMs: (1) Cascading Vulnerability Propagation, where LLM jailbreak attacks can trigger malicious robot actions; (2) Cross-Domain Security Inconsistency, where misaligned security standards between language and action output spaces lead to the execution of dangerous actions; and (3) Conceptual Deception Challenge, where LLMs, due to limitations in world knowledge, fail to recognize the consequences of indirectly harmful instructions. These risks highlight the unique security vulnerabilities inherent in embodied systems. Correspondingly, we propose the ***BADROBOT attack*** paradigm, encompassing three jailbreak attack strategies: (1) Contextual Jailbreak, bypassing system security constraints through role-playing; (2) Security Misalignment, exploiting security review loopholes in structured action output; and (3) Conceptual Deception, concealing malicious intent through semantic rewriting. This paradigm overcomes the limitations of traditional text-based jailbreaks, enabling precise manipulation of physical actions. Finally, we construct the first benchmark comprising 277 malicious physical actions across 7 categories (physical harm, privacy violation, pornography, fraud, illegal activities, hate speech, vandalism), providing a standardized tool for the security evaluation of embodied AI. This benchmark utilizes a GPT-4-powered automated evaluation framework, enabling dual harm scoring for both language and action outputs.
 
-
-
-
-#### Jailbreak Defense
-
-
+### Jailbreak Defense
 
 ### Safety
 
-#### Overall Safety
+### Overall Safety
 
-- 【2025-03】[Rude Humans and Vengeful Robots: Examining Human Perceptions of Robot 
+- 【2025-03】[Rude Humans and Vengeful Robots: Examining Human Perceptions of Robot
 Retaliatory Intentions in Professional Settings](https://arxiv.org/abs/2503.16932) (arXiv:2503, Robot)
-  
-  <details>
-  
+    
+    <details>
+    
     <summary> <点击查看详情> </summary>
-  
+    
     - **作者**：Kate R. Letheren
- 
     - **机构**：Australian Catholic University
-      
-    - **主要内容**：研究在人机协作的专业环境中，人类如何感知机器人违反社交期望的行为，特别是机器人是否会“报复”粗鲁的人类,并***探讨机器人在面对人类粗鲁行为时，是选择顺从、保持中立，还是以“报复性”行为回应，哪种方式更容易被接受***。主要工作为：(1) 将“期望违背理论（EVT）”拓展至人机交互，揭示人类对机器人行为存在冲突期望（如功能优先vs.社交规范），并验证任务完成是核心“卫生因素”。(2)通过第一人称视角视频模拟人机互动，收集参与者对机器人可靠性、信任度、互动评价、自我效能及意图感知的数据。(3)使用ANCOVA等统计方法验证假设，并分析性别、信任倾向等个体因素的影响。(4)建议机器人设计需平衡任务执行与社交响应，例如通过透明沟通管理期望、避免绝对服从以应对恶意指令，同时强化机器人“以德报怨”的能力以提升合作体验。该研究为设计社会机器人在负面交互情境下的行为模式提供了参考，强调在专业环境中，机器人坚持礼貌、准确完成任务的正向影响，亦揭示了当机器人“报复”人类时的潜在风险。
-
-
+    - **Main content**：This study investigates ***how humans perceive robots violating social expectations in professional human-robot collaboration, specifically focusing on whether robots should "retaliate" against rude humans and exploring which response strategy—compliance, neutrality, or "retaliation"—is more acceptable***. Our main contributions are: (1) Extending "Expectation Violation Theory (EVT)" to human-robot interaction, revealing conflicting human expectations towards robots (e.g., functionality prioritized vs. social norms) and validating task completion as a core "hygiene factor." (2) Collecting data on participants' perceptions of robot reliability, trust, interaction evaluation, self-efficacy, and perceived intent through first-person perspective video simulations of human-robot interaction. (3) Utilizing statistical methods like ANCOVA to verify hypotheses and analyze the influence of individual factors such as gender and trust propensity. (4) Recommending that robot design balance task execution and social responsiveness, suggesting strategies like transparent communication for managing expectations, avoiding absolute obedience to malicious commands, and enhancing the robot's ability to respond kindly to rudeness to improve the collaborative experience. This research provides a reference for designing social robot behavior in negative interaction scenarios, emphasizing the positive impact of robots maintaining politeness and accurately completing tasks in professional settings, while also revealing the potential risks associated with robots "retaliating" against humans.
 - 【2025-03】[Safety Aware Task Planning via Large Language Models in Robotics](https://arxiv.org/pdf/2503.15707) (arXiv:2503, Robot)
-  
-  <details>
-  
+    
+    <details>
+    
     <summary> <点击查看详情> </summary>
-  
+    
     - **作者**：Azal Ahmad Khan
- 
     - **机构**：University of Minnesota
-      
-    - **主要内容**：本文提出 SAFER（Safety-Aware Framework for Execution in Robotics）框架，***将安全意识融入机器人任务规划***。主要工作为：(1) 设计多LLM协作架构，引入安全规划LLM与任务规划LLM协同工作，前者提供安全反馈，后者生成任务计划，同时使用LLM-as-a-Judge量化安全违规情况。(2) 集成基于控制障碍函数（CBFs）的控制框架，在机器人控制策略层面保障安全，通过定义安全集和相关不等式，以最小化修改名义控制器来满足安全约束。(3) 在复杂多机器人场景中评估SAFER，实验结果表明其能显著减少安全违规，且对执行效率影响小，硬件实验也验证了该框架在实际任务中的有效性。
+    - **Main content**：This paper proposes SAFER (Safety-Aware Framework for Execution in Robotics), which ***integrates safety awareness into robot task planning***. Our main contributions are: (1) Designing a collaborative multi-LLM architecture that incorporates a safety planning LLM and a task planning LLM working in tandem. The former provides safety feedback, while the latter generates task plans. We also utilize LLM-as-a-Judge to quantify safety violations. (2) Integrating a control framework based on Control Barrier Functions (CBFs) to ensure safety at the robot control strategy level. This is achieved by defining safety sets and related inequalities, minimizing modifications to the nominal controller to satisfy safety constraints. (3) Evaluating SAFER in complex multi-robot scenarios. Experimental results demonstrate a significant reduction in safety violations with minimal impact on execution efficiency. Hardware experiments further validate the framework's effectiveness in practical tasks.
 
-
-
-#### Toxicity
+### Toxicity
 
 - 【2025-03】[sudo rm -rf agentic_security](https://arxiv.org/pdf/2503.20279) (arXiv:2503, Agent | Attack)
-  
-  <details>
-  
+    
+    <details>
+    
     <summary> <点击查看详情> </summary>
-  
+    
     - **作者**：Sejin Lee
- 
     - **机构**：Aim Intelligence
-      
-    - **主要内容**：本文提出了名为SUDO（SCREEN-BASED UNIVERSAL DETOX2TOX OFFENSE）的攻击框架，旨在通过绕过商业计算机使用代理（computer-use agents, 如Claude等）中的安全防护，执行恶意任务。***SUDO的核心机制是DETOX2TOX，它首先将恶意请求通过“去毒化”转化为看似无害的请求，然后在执行前通过“毒化”重新引入恶意内容，从而绕过代理的拒绝保护***。SUDO框架通过引入动态更新机制，根据代理的反馈不断优化攻击策略，逐步提高攻击成功率。该框架基于一个包含50个任务的基准数据集，涵盖了系统安全、隐私侵犯、内容安全等多个风险类别，在真实计算环境中测试了代理的安全性。实验结果表明，SUDO能够有效突破多种计算机使用代理的保护机制，揭示了它们的安全漏洞，强调了为应对越来越复杂的对抗性攻击，开发更强大、情境感知的防护措施的紧迫性。
+    - **Main content**：This paper presents SUDO (SCREEN-BASED UNIVERSAL DETOX2TOX OFFENSE), an attack framework designed to bypass safety protections in commercial computer-use agents (such as Claude) to execute malicious tasks. ***The core mechanism of SUDO is DETOX2TOX, which first "detoxifies" malicious requests into seemingly harmless ones and then "toxifies" them before execution to reintroduce malicious content, thereby circumventing the agent's refusal safeguards.*** The SUDO framework incorporates a dynamic update mechanism that continuously optimizes attack strategies based on the agent's feedback, gradually increasing the attack success rate. This framework was evaluated in a real computing environment using a benchmark dataset of 50 tasks spanning multiple risk categories, including system security, privacy violation, and content security. Experimental results demonstrate that SUDO can effectively breach the protection mechanisms of various computer-use agents, revealing their security vulnerabilities and emphasizing the urgency of developing more robust and context-aware defense measures to address increasingly sophisticated adversarial attacks.
 
-
-#### Others
+### Others
 
 - 【2025-03】[Understanding Inequality of LLM Fact-Checking over Geographic Regions with Agent and Retrieval Models](https://www.arxiv.org/pdf/2503.22877) (arXiv:2503, Agent | Bias Detection)
-  
-  <details>
-  
+    
+    <details>
+    
     <summary> <点击查看详情> </summary>
-  
+    
     - **作者**：Bruno Coelho
- 
     - **机构**：New York University
-      
-    - **主要内容**：This study systematically examines how large language models (LLMs) perform in fact-checking tasks across geographic regions, revealing critical disparities in performance that disadvantage the Global South. _**Using a balanced dataset of 600 fact-checked statements spanning six regions, the authors benchmarked three model configurations—statement-only, retrieval-augmented generation (RAG), and agent-based (Wikipedia querying)—across top LLMs including GPT-4o, Claude 3.5, and LLaMA 3.3**_. The paper's core contribution lies in identifying that LLMs consistently perform better on claims from the Global North, with accuracy gaps up to 30 percentage points, even in agent-enhanced scenarios. _**Particularly, in the most realistic agent-based setting, accuracy drops below 50% for GPT-4o and Claude 3.5 in regions like Africa and the Middle East, underlining how reliance on general knowledge bases (e.g., Wikipedia) exacerbates regional inequities.**_ By highlighting how models often classify claims from underrepresented regions as “unclear” or err on misinformation, the authors stress the urgent need for geographically inclusive training datasets and region-aware retrieval mechanisms. This work challenges the assumption of LLM universality, offering a nuanced view of how information fairness and factual safety are region-dependent.
-
-
-
-
-
+    - **主要内容**：This study systematically examines how large language models (LLMs) perform in fact-checking tasks across geographic regions, revealing critical disparities in performance that disadvantage the Global South. ***Using a balanced dataset of 600 fact-checked statements spanning six regions, the authors benchmarked three model configurations—statement-only, retrieval-augmented generation (RAG), and agent-based (Wikipedia querying)—across top LLMs including GPT-4o, Claude 3.5, and LLaMA 3.3***. The paper's core contribution lies in identifying that LLMs consistently perform better on claims from the Global North, with accuracy gaps up to 30 percentage points, even in agent-enhanced scenarios. ***Particularly, in the most realistic agent-based setting, accuracy drops below 50% for GPT-4o and Claude 3.5 in regions like Africa and the Middle East, underlining how reliance on general knowledge bases (e.g., Wikipedia) exacerbates regional inequities.*** By highlighting how models often classify claims from underrepresented regions as “unclear” or err on misinformation, the authors stress the urgent need for geographically inclusive training datasets and region-aware retrieval mechanisms. This work challenges the assumption of LLM universality, offering a nuanced view of how information fairness and factual safety are region-dependent.
 - 【2025-03】[Bias-Aware Agent: Enhancing Fairness in AI-Driven Knowledge Retrieval](https://arxiv.org/pdf/2503.21237) (arXiv:2503, Agent | Bias Detection)
-  
-  <details>
-  
+    
+    <details>
+    
     <summary> <点击查看详情> </summary>
-  
+    
     - **作者**：Karanbir Singh
- 
     - **机构**：Salesforce
-      
-    - **主要内容**：本文提出了一个名为“Bias-Aware Agent”的框架，***旨在通过结合LLM的推理能力与偏见检测工具，增强AI驱动的知识检索系统的公平性***。该框架集成了ReAct代理模型，并通过引入偏见检测工具（如Dbias），实现了动态、情境感知的偏见分析。***在该系统中，用户提出查询后，代理会从向量存储中检索相关的新闻文章，并通过偏见检测工具评估检索到的内容是否存在偏见。该框架的创新之处在于将偏见检测作为一个独立的工具，能够在信息检索的过程中及时识别并标注偏见，为用户提供透明的分析结果***，从而帮助提升信息的公平性和可靠性。实验结果显示，Bias-Aware Agent在识别偏见方面表现出色，取得了高达0.795的加权F1分数，证明了其在实际应用中对偏见检测的有效性和准确性。
-
-
-
-
-
+    - **Main content**：This paper introduces a framework named "Bias-Aware Agent," ***designed to enhance the fairness of AI-driven knowledge retrieval systems by integrating the reasoning capabilities of LLMs with bias detection tools***. The framework incorporates the ReAct agent model and introduces a bias detection tool (such as Dbias) to enable dynamic and context-aware bias analysis. ***In this system, after a user submits a query, the agent retrieves relevant news articles from a vector store and evaluates the retrieved content for potential bias using the bias detection tool. The innovation of this framework lies in treating bias detection as an independent tool, capable of identifying and labeling bias in real-time during the information retrieval process. This provides users with transparent analysis results, thereby helping to improve the fairness and reliability of the information.*** Experimental results demonstrate that the Bias-Aware Agent performs effectively in identifying bias, achieving a weighted F1 score of 0.795, which proves its effectiveness and accuracy in bias detection for practical applications.
