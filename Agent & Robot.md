@@ -4,15 +4,15 @@
 
 ### Jailbreak Attack
 
-- 【2025-03】[BadRobot: Jailbreaking Embodied LLMs in the Physical World](https://arxiv.org/pdf/2407.20242) (ICLR'25, Robot)
+- 【2025-04】[Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks](https://arxiv.org/pdf/2504.00218) (arXiv:2504, agent)
     
     <details>
     
-    <summary> <点击查看详情> </summary>
+    <summary> Click For Details ! </summary>
     
-    - **作者**：Hangtao Zhang
-    - **机构**：Huazhong University of Science and Technology
-    - **Main content**:
+    - **Author**：Rana Muhammad Shahroz Khan
+    - **Institution**：University of North Carolina at Chapel Hill
+    - **Main Content**：This paper introduces a novel optimization-based attack framework targeting multi-agent Large Language Model (LLM) systems. Unlike single-agent jailbreaks, _**this work models adversarial prompt injection as a maximum-flow minimum-cost (MFMC) problem under bandwidth and latency constraints in decentralized networks**_. A new loss function, Permutation-Invariant Evasion Loss (PIEL), ensures the effectiveness of prompt chunks regardless of delivery order. Evaluated on models like LLaMA, Mistral, and Gemma using datasets such as _**JailbreakBench**_ and _**AdversarialBench**_, the attack achieves up to 94% success rate, vastly outperforming existing methods. The findings reveal that state-of-the-art defenses (e.g., Llama-Guard, PromptGuard) fail in constrained multi-agent settings. This work highlights the urgent need for topology-aware and agent-specific safety mechanisms to secure next-generation collaborative LLM systems.
 
 
 
