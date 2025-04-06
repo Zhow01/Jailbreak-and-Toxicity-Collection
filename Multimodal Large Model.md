@@ -1,10 +1,21 @@
 # Multimodal Large Model
 
-### Jailbreak Attack & Defense
+### Jailbreak
 
-### Jailbreak Attack
+- 【2025-04】[PiCo: Jailbreaking Multimodal Large Language Models via Pictorial Code Contextualization](https://arxiv.org/pdf/2504.01444)（arXiv:2504, Attack）
+    
+    <details>
+  
+    <summary> Click For Details ! </summary>
+  
+    - **Author**：Aofan Liu
+ 
+    - **Institution**：Wuhan University
+      
+    - **Main Content**：This paper proposes PiCo, a novel multi-tiered jailbreak framework targeting Multimodal Large Language Models (MLLMs) by exploiting vulnerabilities in visual modality and code-style instruction alignment. _**Unlike traditional jailbreak attacks that rely on text, PiCo adopts a token-level typographic strategy combined with code-contextual visual embedding to evade input filtering, bypass runtime monitoring, and circumvent access control in models such as GPT-4V, GPT-4o, Gemini-Pro-V, and LLaVA-1.5.**_ Through extensive experiments on the HADES dataset across five harmful scenarios (e.g., violence, privacy violation), PiCo achieves an average Attack Success Rate (ASR) of 84.13% on Gemini-Pro-V and 52.66% on GPT-4o, significantly outperforming prior methods like HADES. _**A new evaluation metric, THS (Toxicity and Helpfulness Score), is introduced to capture both the maliciousness and utility of model outputs**_, revealing that PiCo not only increases attack success but also amplifies content effectiveness. 
 
-- 【2025-03】[Metaphor-based Jailbreaking Attacks on Text-to-Image Models](https://arxiv.org/abs/2503.18681)（arXiv:2503）
+
+- 【2025-03】[Metaphor-based Jailbreaking Attacks on Text-to-Image Models](https://arxiv.org/abs/2503.18681)（arXiv:2503, Attack）
     
     <details>
     
