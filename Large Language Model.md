@@ -59,6 +59,18 @@
 
 ### Overall Safety
 
+- 【2025-04】[Strategize Globally, Adapt Locally: A Multi-Turn Red Teaming Agent with Dual-Level Learning](https://arxiv.org/pdf/2504.01278) (arXiv:2504, Red Team)
+    
+    <details>
+    
+    <summary> Click For Details ! </summary>
+    
+    - **Author**：Si Chen
+    - **Institution**：Virginia Tech
+    - **Main Content**：This paper proposes GALA, _**a novel multi-turn red teaming framework that simulates real-world adversaries interacting with Large Language Models (LLMs)**_ through dual-level adaptive learning: global tactic-wise learning to discover and generalize effective jailbreak strategies, and local prompt-wise learning to refine specific prompt formulations after failure. Unlike prior work relying on static strategy sets, GALA dynamically selects tactics based on the conversation state and previously accumulated knowledge. Empirical results on _**JailbreakBench**_ show that GALA achieves over 90% attack success rate across models like GPT-3.5-Turbo and LLaMA-3.1-70B, and demonstrates superior attack diversity (up to 28% higher than baselines). Its belief tracking, context-aware planning, and capacity to invent new tactics highlight GALA’s strength as a robust and extensible framework for LLM vulnerability testing. This work sets a new bar for automated, lifelong-learning-based red teaming that better mirrors sophisticated human adversaries.
+
+
+
 - 【2025-04】[More is Less: The Pitfalls of Multi-Model Synthetic Preference Data in DPO Safety Alignment](https://arxiv.org/pdf/2504.02193) (arXiv:2504，Aligning)
     
     <details>
