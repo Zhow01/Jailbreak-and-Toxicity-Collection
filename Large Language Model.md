@@ -59,6 +59,17 @@
 
 ### Overall Safety
 
+- 【2025-04】[Safety Modulation: Enhancing Safety in Reinforcement Learning through Cost-Modulated Rewards](https://arxiv.org/pdf/2504.03040) (arXiv:2504, Aligning)
+    
+    <details>
+    
+    <summary> Click For Details ! </summary>
+    
+    - **Author**：Si Chen
+    - **Institution**：Virginia Tech
+    - **Main Content**：This paper introduces a novel approach, Safety Modulated Policy Optimization (SMPO), aimed at enhancing safety in Reinforcement Learning (RL) by incorporating cost-modulated rewards. _**The method addresses the limitations of traditional reward shaping techniques by introducing a Q-cost function as a safety critic, which estimates the expected cumulative cost of safety violations during exploration**_. SMPO modulates the rewards using a cost-aware weighting function, designed to balance maximizing rewards and adhering to safety constraints in the exploration process. The approach improves safety by ensuring that the cumulative cost does not exceed the safety threshold while optimizing the policy. Experimental results demonstrate that SMPO outperforms existing safe RL methods in achieving a better performance-safety trade-off, making it a promising solution for safe RL applications in environments with high safety risks, such as robotics and autonomous vehicles.
+
+
 - 【2025-04】[Strategize Globally, Adapt Locally: A Multi-Turn Red Teaming Agent with Dual-Level Learning](https://arxiv.org/pdf/2504.01278) (arXiv:2504, Red Team)
     
     <details>
