@@ -2,6 +2,20 @@
 
 ### Jailbreak
 
+- 【2025-04】[Multilingual and Multi-Accent Jailbreaking of Audio LLMs](https://arxiv.org/pdf/2504.01094)（arXiv:2504, Attack）
+    
+    <details>
+  
+    <summary> Click For Details ! </summary>
+  
+    - **Author**：Jaechul Roh
+ 
+    - **Institution**：University of Massachusetts Amherst
+      
+    - **Main Content**：This paper presents MULTI-AUDIOJAIL, _**the first comprehensive framework for studying jailbreak vulnerabilities in Large Audio Language Models (LALMs) under multilingual and multi-accent audio inputs enhanced by adversarial acoustic perturbations**_ (e.g., reverberation, echo, whisper effects). Through a dataset of 102,720 adversarial audio prompts across 6 languages and 14 accents, the authors demonstrate that audio-based attacks far surpass text-based ones, achieving up to 3.1× higher Jailbreak Success Rates (JSRs). In particular, attacks using synthetic accents and reverb effects yield drastic spikes (e.g., +57.25% JSR on Kenyan-accented German audio). The study reveals that multimodal LLMs are disproportionately vulnerable, as attackers can exploit their weakest modality (non-English audio) to bypass safety filters. Text-based defenses show partial mitigation, but the findings underscore the need for robust, cross-modal safety strategies. This work significantly expands our understanding of security risks in LALMs, especially in real-world multilingual environments.
+
+
+
 - 【2025-04】[PiCo: Jailbreaking Multimodal Large Language Models via Pictorial Code Contextualization](https://arxiv.org/pdf/2504.01444)（arXiv:2504, Attack）
     
     <details>
