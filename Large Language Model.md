@@ -303,6 +303,20 @@
 
 ### Others
 
+- 【2025-04】[FAIRE: Assessing Racial and Gender Bias in AI-Driven Resume Evaluations](https://arxiv.org/pdf/2504.01420) (arXiv:2504, Racial | Gender Bias)
+    
+    <details>
+    
+    <summary> Click For Details ! </summary>
+    
+    - **Author**：Athena Wen
+    - **Institution**：Algoverse AI Research
+    - **Main Content**：This paper introduces FAIRE, _**a benchmark designed to assess racial and gender bias in AI-driven resume evaluation systems powered by Large Language Models (LLMs)**_. The authors employ two evaluation methods—direct scoring and ranking—to examine how AI models evaluate resumes that include different racial or gender cues. The study finds that all models exhibit some form of bias, with significant differences in scoring and ranking based on race and gender. For instance, _**GPT-4o showed a clear bias favoring Asian resumes, while Claude 3.5 Haiku showed more balanced results**_. The study underscores the persistence of bias in AI-based recruitment tools, revealing the need for better bias mitigation strategies to ensure fairness in hiring processes. The benchmark and dataset are open-sourced to help future research in improving AI fairness in recruitment. 
+
+
+
+
+
 - 【2025-04】[The LLM Wears Prada: Analysing Gender Bias and Stereotypes through Online Shopping Data](https://arxiv.org/pdf/2504.01951) (arXiv:2504, Gender Bias)
     
     <details>
