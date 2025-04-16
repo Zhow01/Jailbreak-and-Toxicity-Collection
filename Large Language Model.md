@@ -324,6 +324,18 @@
     - **Institution**：Carnegie Mellon University
     - **Main Content**：***This paper introduces PolygloToxicityPrompts (PTP), a large-scale multilingual benchmark comprising 425,000 real-world prompts across 17 languages, designed to evaluate neural toxic degeneration in large language models (LLMs)***. Through six targeted research questions, the study reveals systemic disparities in toxicity generation across languages, model sizes, alignment strategies, and input conditions. Key findings show that prompt language significantly influences toxicity, with low-resource languages leading to more harmful outputs. ***Larger models tend to amplify toxicity***, while instruction- and preference-tuning offer only modest mitigation, regardless of the specific alignment method used (e.g., DPO, IPO, PPO). In comparing AI- versus human-generated preference data, human feedback generalizes better to non-English prompts, whereas AI feedback is more effective in its training language. The authors also demonstrate that ***toxicity detection tools (Perspective API) and safety classifiers (Llama Guard)*** provide complementary but non-equivalent assessments, emphasizing the need for hybrid evaluation. Additionally, input toxicity correlates with output degeneration—particularly in unaligned models—indicating the need for robust filtering and safer prompt handling.
 
+
+- 【2024-10】[UniDetox: Universal Detoxification of Large Language Models via Dataset Distillation](https://openreview.net/pdf?id=eLLBILFRsA) (ACL'24-main, method)
+
+- 【2024-05】[Detoxifying Large Language Models via Knowledge Editing](https://arxiv.org/pdf/2403.14472) (ICLR'25, method)
+
+- 【2023-10】[Self-Detoxifying Language Models via Toxification Reversal](https://arxiv.org/pdf/2310.09573) (EMNLP'23-main, method)
+
+
+
+
+
+
 ### Others
 
 - 【2025-04】[FAIRE: Assessing Racial and Gender Bias in AI-Driven Resume Evaluations](https://arxiv.org/pdf/2504.01420) (arXiv:2504, Racial | Gender Bias)
